@@ -1,0 +1,28 @@
+[book]
+title = "The Linux Luminarium - 论文学习笔记"
+description = "SIGCSE 2026 论文《The Linux Luminarium: Learning Linux by Leveraging Lightweight Labs and Ludicrous Lessons》的结构化学习笔记"
+authors = ["Your Name"]
+language = "zh-CN"
+multilingual = false
+
+[build]
+build-dir = "book"
+create-missing = true
+
+[output.html]
+default-theme = "light"
+git-repository-url = "https://github.com/bguo2/the-linux-luminarium-paper"
+git-repository-icon = "fa-github"
+edit-url-template = "https://github.com/bguo2/the-linux-luminarium-paper/edit/main/{path}"
+
+[output.html.search]
+enable = true
+limit-results = 30
+teaser-word-count = 30
+use-boolean-and = true
+boost-title = 2
+boost-hierarchy = 1
+boost-paragraph = 1
+expand = true
+heading-split-level = 3
+
