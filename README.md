@@ -6,7 +6,7 @@ The Linux Luminarium: Learning Linux by Leveraging Lightweight Labs and Ludicrou
 
 ## 📚 在线版本
 
-访问 [GitHub Pages](https://bguo2.github.io/the-linux-luminarium-paper/) 查看在线版本。
+访问 [GitHub Pages](https://benx-guo.github.io/the-linux-luminarium-paper/) 查看在线版本。
 
 ## 🚀 本地开发
 
