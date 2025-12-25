@@ -1,7 +1,5 @@
 # Conclusion
 
-> TODO: Extract and translate the conclusion section from the paper
+The Linux Luminarium is a novel, turnkey, challenge-based Linux education platform that supercharges learners to become proficient Linux users. Over the year of its open availability, the Linux Luminarium has taught Linux to 15,394 learners, shepherding them through solving 697,553 challenges. By surveying learners around the country as well as at our University, we show that the Linux Luminarium, and the techniques that underpin it, successfully drive student learning. The Linux Luminarium is both openly available on the internet for turnkey learning and open source to enable reproducibility, learning, and ongoing research.
 
-## Content Placeholder
-
-<!-- Add conclusion content here -->
+**Acknowledgements.** This material is based upon work supported by the Defense Advanced Research Projects Agency (DARPA) under Contract No. HR001124C0362 and by the Department of Navy under award N00014-23-1-2563 issued by the Office of Naval Research. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the Defense Advanced Research Projects Agency (DARPA) or the Office of Naval Research.

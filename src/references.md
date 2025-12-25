@@ -1,13 +1,13 @@
 # 引用
 
 <a id="ref1"></a>
-[1] Cisco Networking Academy. [n.d.]. Linux Unhatched. https://www.netacad.com/courses/linux-unhatched?courseLang=en-US.
+[1] Cisco Networking Academy. [n.d.]. [https://www.netacad.com/courses/linux-unhatched?courseLang=en-US](https://www.netacad.com/courses/linux-unhatched?courseLang=en-US).
 
 <a id="ref2"></a>
 [2] Jacob Bailey and Craig Zilles. 2019. uassign: Scalable interactive activities for teaching the unix terminal. In Proceedings of the 50th ACM technical symposium on computer science education. 70–76.
 
 <a id="ref3"></a>
-[3] Fabrice Bellard. [n.d.]. JSLinux. https://bellard.org/jslinux/.
+[3] Fabrice Bellard. [n.d.]. [https://bellard.org/jslinux/](https://bellard.org/jslinux/).
 
 <a id="ref4"></a>
 [4] Vincent Berry, Arnaud Castelltort, Chrysta Pelissier, Marion Rousseau, and Chouki Tibermacine. 2022. Shell on you: Learning by doing unix command line. In Proceedings of the 27th ACM Conference on Innovation and Technology in Computer Science Education Vol. 1. 379–385.
@@ -16,19 +16,19 @@
 [5] Razvan Beuran, Dat Tang, Cuong Pham, Ken-ichi Chinen, Yasuo Tan, and Yoichi Shinoda. 2018. Integrated framework for hands-on cybersecurity training: CyTrONE. Computers & Security 78 (2018), 43–59.
 
 <a id="ref6"></a>
-[6] Hack The Box. 2023. https://www.hackthebox.com/.
+[6] Hack The Box. 2023. [https://www.hackthebox.com/](https://www.hackthebox.com/).
 
 <a id="ref7"></a>
 [7] Kevin Chung and Julian Cohen. 2014. Learning Obstacles in the Capture The Flag Model. In 2014 USENIX Summit on Gaming, Games, and Gamification in Security Education (3GSE14).
 
 <a id="ref8"></a>
-[8] Paul Cobbaut et al. 2007. Linux Fundamentals. Dosegljivo: http://linuxtraining.be/linuxfun.pdf. [Dostopano: 10.2.2019] (2007).
+[8] Paul Cobbaut et al. 2007. Linux Fundamentals. Dosegljivo: [http://linuxtraining.be/linuxfun.pdf](http://linuxtraining.be/linuxfun.pdf). [Dostopano: 10.2.2019] (2007).
 
 <a id="ref9"></a>
-[9] Code Academy. [n.d.]. Installing Linux Using a Virtual Machine. https://www.codecademy.com/article/installing-linux-using-a-vm.
+[9] Code Academy. [n.d.]. [https://www.codecademy.com/article/installing-linux-using-a-vm](https://www.codecademy.com/article/installing-linux-using-a-vm).
 
 <a id="ref10"></a>
-[10] Copy. [n.d.]. v86. https://copy.sh/v86/.
+[10] Copy. [n.d.]. [https://copy.sh/v86/](https://copy.sh/v86/).
 
 <a id="ref11"></a>
 [11] Adrian Dabrowski, Markus Kammerstetter, Eduard Thamm, Edgar Weippl, and Wolfgang Kastner. 2015. Leveraging Competitive Gamification for Sustainable Fun and Profit in Security Education. In 2015 USENIX Summit on Gaming, Games, and Gamification in Security Education (3GSE15).
@@ -37,7 +37,7 @@
 [12] Edward Dillon, Krystal L Williams, Ashley Simone Pryor, Theodore Wimberly Jr, Mariah McMichael, Abisola Mercy Arowolaju, Donald Bernard Davis, and Toluwanimi Ayodele. 2024. Exploring the Impact of Exposing Command Line Programming to Early CS Majors (An HBCU Case Study). In 2024 ASEE Annual Conference & Exposition.
 
 <a id="ref13"></a>
-[13] Machtelt Garrels. 2002. Introduction to Linux. A Hands on Guide. https://tldp.org/LDP/intro-linux/html (2002).
+[13] Machtelt Garrels. 2002. [https://tldp.org/LDP/intro-linux/html](https://tldp.org/LDP/intro-linux/html) (2002).
 
 <a id="ref14"></a>
 [14] Kees Leune and Salvatore J Petrilli Jr. 2017. Using Capture-the-Flag to Enhance the Effectiveness of Cybersecurity Education. In Proceedings of the 18th Annual Conference on Information Technology Education. 47–52.
@@ -55,16 +55,16 @@
 [18] Connor Nelson and Yan Shoshitaishvili. 2024. PWN The Learning Curve: Education-First CTF Challenges. In Proceedings of the 55th ACM Technical Symposium on Computer Science Education (SIGCSE).
 
 <a id="ref19"></a>
-[19] Over The Wire. [n.d.]. Bandit. https://overthewire.org/wargames/bandit/.
+[19] Over The Wire. [n.d.]. [https://overthewire.org/wargames/bandit/](https://overthewire.org/wargames/bandit/).
 
 <a id="ref20"></a>
 [20] Bobby Powers, John Vilk, and Emery D Berger. 2017. Browsix: Bridging the gap between unix and the browser. ACM SIGPLAN Notices 52, 4 (2017), 253–266.
 
 <a id="ref21"></a>
-[21] The Linux Journey Project. [n.d.]. Linux Journey. https://linuxjourney.com/.
+[21] The Linux Journey Project. [n.d.]. [https://linuxjourney.com/](https://linuxjourney.com/).
 
 <a id="ref22"></a>
-[22] Gordon Russel. [n.d.]. linuxzoo. https://linuxzoo.net/.
+[22] Gordon Russel. [n.d.]. [https://linuxzoo.net/](https://linuxzoo.net/).
 
 <a id="ref23"></a>
 [23] Rémi Sharrock, Lawrence Angrave, and Ella Hamonic. 2018. WebLinux: a scalable in-browser and client-side Linux and IDE. In Proceedings of the Fifth Annual ACM Conference on Learning at Scale. 1–2.
@@ -76,7 +76,7 @@
 [25] Valdemar Švábenský, Jan Vykopal, Daniel Tovarňák, and Pavel Čeleda. 2021. Toolset for collecting shell commands and its application in hands-on cybersecurity training. In 2021 IEEE Frontiers in Education Conference (FIE). IEEE, 1–9.
 
 <a id="ref26"></a>
-[26] TryHackMe. 2023. https://tryhackme.com/.
+[26] TryHackMe. 2023. [https://tryhackme.com/](https://tryhackme.com/).
 
 <a id="ref27"></a>
 [27] Jan Vykopal, Radek Ošlejšek, Pavel Čeleda, Martin Vizvary, and Daniel Tovarňák. 2017. KYPO Cyber Range: Design and Use Cases. In Proceedings of the 12th International Conference on Software Technologies - Volume 1: ICSOFT. SciTePress, 310–321.
@@ -85,4 +85,4 @@
 [28] Jan Vykopal, Valdemar Švábenský, and Ee-Chien Chang. 2020. Benefits and Pitfalls of Using Capture the Flag Games in University Courses. In Proceedings of the 51st ACM Technical Symposium on Computer Science Education. 752–758.
 
 <a id="ref29"></a>
-[29] Webminal. [n.d.]. About. https://www.webminal.org/about/.
+[29] Webminal. [n.d.]. [https://www.webminal.org/about/](https://www.webminal.org/about/).
