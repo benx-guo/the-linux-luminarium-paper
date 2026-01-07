@@ -1,25 +1,15 @@
-# 摘要
+# Abstract
 
-学习 Linux 通常伴随着较高的初始环境搭建成本，这在实践中形成了一种悖论：
-初学者往往必须已经对 Linux 环境具备一定认知，才能真正有效地开始学习它。
-为应对这一挑战，我们开发了一套在线交互式学习课程，其核心设计目标是消除手动配置所带来的学习门槛。
-我们的方法将 Linux 的核心概念拆分为小而聚焦的挑战任务，使学习者能够通过主动实践实现渐进式掌握。
-在传统练习之外，课程还引入了刻意设计的“非常规”甚至具有破坏性的学习场景，例如模拟系统安全入侵、部署 `forkbomb`，以及执行诸如 `rm -rf /` 这类“高风险”命令，通过强烈的对比体验来加深对系统行为的理解。
-这些“恶作剧式（shenanigan）挑战”不仅能够强化学习者的技术能力，还能够使其直观认识到错误操作所带来的系统性后果，从而更加全面地理解 Linux 环境的灵活性、强大能力与潜在风险，显著提升学习过程的参与感与沉浸感。
+Learning Linux typically involves high initial setup costs, creating a paradox in practice: beginners often must already possess some understanding of the Linux environment before they can effectively begin learning it. To address this challenge, we developed an online interactive learning curriculum with the core design goal of eliminating the learning barriers imposed by manual configuration. Our approach breaks down Linux core concepts into small, focused challenge tasks, enabling learners to achieve progressive mastery through active practice. Beyond traditional exercises, the curriculum introduces deliberately designed "unconventional" and even destructive learning scenarios, such as simulating system security intrusions, deploying `forkbomb`, and executing "high-risk" commands like `rm -rf /`, deepening understanding of system behavior through intense contrasting experiences. These "shenanigan challenges" not only strengthen learners' technical capabilities but also allow them to intuitively recognize the systemic consequences of erroneous operations, thereby gaining a more comprehensive understanding of the Linux environment's flexibility, power, and potential risks, significantly enhancing the engagement and immersion of the learning process.
 
-# CCS 分类
+# CCS Classification
 
-- **应用计算 -> 教育；交互式学习环境。**
+- **Applied Computing -> Education; Interactive Learning Environments.**
 
-# 关键字
+# Keywords
 
-Linux 教育，教育辅导
+Linux Education, Educational Scaffolding
 
-**ACM 标准参考文献格式**
+**ACM Reference Format**
 
-Yan Shoshitaishvili，Adam Doupé，Connor Nelson. 2026.
-《The Linux Luminarium：通过轻量级实验与“荒诞式”课程学习 Linux》。
-载于：第 57 届 ACM 计算机科学教育技术研讨会论文集 第 1 卷
-（SIGCSE TS 2026），2026 年 2 月 18–21 日，美国密苏里州圣路易斯。
-ACM 出版社，美国纽约，全文 7 页。
-[https://doi.org/10.1145/3770762.3772655](https://doi.org/10.1145/3770762.3772655)
+Yan Shoshitaishvili, Adam Doupé, Connor Nelson. 2026. The Linux Luminarium: Learning Linux Through Lightweight Experimentation and Shenanigan-Driven Curriculum. In Proceedings of the 57th ACM Technical Symposium on Computer Science Education V. 1 (SIGCSE TS 2026), February 18–21, 2026, St. Louis, MO, USA. ACM, New York, NY, USA, 7 pages. [https://doi.org/10.1145/3770762.3772655](https://doi.org/10.1145/3770762.3772655)

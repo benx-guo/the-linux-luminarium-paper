@@ -1,0 +1,47 @@
+/* Language Switcher Styles - Simple text button */
+/* Uses mdbook CSS variables for seamless theme integration */
+
+#mdbook-lang-toggle.lang-text-button {
+    border: none;
+    background: none;
+    padding: 0 8px;
+    margin: 0;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    vertical-align: middle;
+    color: var(--icons, #747474);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: var(--menu-bar-height);
+    transition: color 0.2s ease;
+    text-decoration: none;
+}
+
+#mdbook-lang-toggle.lang-text-button:hover {
+    color: var(--icons-hover, #000000);
+}
+
+/* Dark theme adjustments */
+html.dark #mdbook-lang-toggle.lang-text-button,
+html.navy #mdbook-lang-toggle.lang-text-button,
+html.coal #mdbook-lang-toggle.lang-text-button,
+html.ayu #mdbook-lang-toggle.lang-text-button {
+    color: var(--icons, #737480);
+}
+
+html.dark #mdbook-lang-toggle.lang-text-button:hover,
+html.navy #mdbook-lang-toggle.lang-text-button:hover,
+html.coal #mdbook-lang-toggle.lang-text-button:hover,
+html.ayu #mdbook-lang-toggle.lang-text-button:hover {
+    color: var(--icons-hover, #b7b9cc);
+}
+
+/* Rust theme */
+html.rust #mdbook-lang-toggle.lang-text-button {
+    color: var(--icons, #737480);
+}
+
+html.rust #mdbook-lang-toggle.lang-text-button:hover {
+    color: var(--icons-hover, #262625);
+}

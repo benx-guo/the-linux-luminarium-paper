@@ -1,15 +1,15 @@
-# 设计
+# Design
 
-多个目标促成了 Linux Luminarium 的创建：
+Multiple objectives motivated the creation of the Linux Luminarium:
 
-**最低限度的设备要求。** 我们希望让不同背景的人都能使用，包括那些无法定期使用具有开发或者虚拟化功能的计算机的人。
+**Minimal Hardware Requirements.** We wanted to make it accessible to people from diverse backgrounds, including those who cannot regularly access computers with development or virtualization capabilities.
 
-**最低限度的知识储备。** 理想情况下，学习者只需具备极少的技术背景即可接触 Linux Luminarium（例如，仅需会使用网页浏览器）。我们刻意避免预设用户已经理解文件系统、进程、源代码、可执行文件，以及几乎所有其他技术概念。
+**Minimal Prior Knowledge.** Ideally, learners should only need minimal technical background to engage with the Linux Luminarium (e.g., only needing to know how to use a web browser). We deliberately avoided assuming users already understand file systems, processes, source code, executable files, and almost all other technical concepts.
 
-**最小的概念跨度。** 考虑到学习者对相关概念并不熟悉，我们努力将 Linux 学习过程分解为一系列小的步骤，使这些步骤逐步累积，最终形成扎实而系统的理解。
+**Minimal Conceptual Span.** Considering that learners are unfamiliar with the relevant concepts, we worked to decompose the Linux learning process into a series of small steps that progressively accumulate to ultimately form a solid and systematic understanding.
 
-**防护机制** 作为经验丰富的教育者，我们观察到学习者在学习过程中可能以多种方式误入歧途。为此，我们努力营造一种既允许学习者自由探索、又能尽量减少偏离学习主线、导致学习受阻错误的学习环境。
+**Guardrails.** As experienced educators, we observed that learners can go astray in multiple ways during the learning process. Therefore, we worked to create a learning environment that allows learners to explore freely while minimizing errors that deviate from the main learning path and cause learning blockages.
 
-**参与感** 我们的目标是通过定期的积极反馈强化和社区参与来保持学习者的积极性。
+**Engagement.** Our goal is to maintain learner motivation through regular positive feedback reinforcement and community participation.
 
-基于上述目标，我们选择 pwn.college 的 DOJO 平台 [[17](references.md#ref17)] 作为 Linux Luminarium 的基础设施。DOJO 提供了一个开源、可通过 Web 访问的 Linux 环境：教师可以在其中实现和部署作业；平台同时向教师开放高级的运行与行为观测（instrumentation）能力；并且在面对“过于聪明”的学生时，仍能提供安全性保障，以维护作业的教学完整性。我们采用了受 Capture-the-Flag（CTF）[[18](references.md#ref18)] 启发的 PWN 教学理念，该理念主张通过一系列逐步提升复杂度的动手挑战，来教授连续的“微概念（microconcepts）”。为此，我们将复杂概念拆分为更细小的组成单元，并通过独立、规模很小的挑战来传达每一个单元；这些挑战相互叠加，最终逐步构建起对整体概念的理解。在这一平台与教学理念之上，我们进一步引入了面向 Linux 初学阶段的多项定制化创新，并实现了一套完整而系统的课程体系，相关内容将在下文中详细介绍。
+Based on the above objectives, we chose pwn.college's DOJO platform [[17](references.md#ref17)] as the infrastructure for the Linux Luminarium. DOJO provides an open-source, web-accessible Linux environment: instructors can implement and deploy assignments within it; the platform simultaneously provides instructors with advanced runtime and behavioral instrumentation capabilities; and it can still provide security guarantees when facing "too-clever" students to maintain the pedagogical integrity of assignments. We adopted the PWN teaching philosophy inspired by Capture-the-Flag (CTF) [[18](references.md#ref18)], which advocates teaching continuous "micro-concepts" through a series of progressively complex hands-on challenges. To this end, we break down complex concepts into smaller constituent units and convey each unit through independent, very small challenges; these challenges build upon each other, ultimately constructing a progressive understanding of the overall concept. On top of this platform and teaching philosophy, we further introduced multiple customized innovations targeting the early Linux learning stage and implemented a complete and systematic curriculum, which will be detailed below.

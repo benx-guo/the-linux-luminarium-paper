@@ -1,9 +1,12 @@
 [book]
-title = "The Linux Luminarium - 论文学习笔记"
-description = "SIGCSE 2026 论文《The Linux Luminarium: Learning Linux by Leveraging Lightweight Labs and Ludicrous Lessons》的结构化学习笔记"
+title = "The Linux Luminarium"
+description = "The Linux Luminarium: Learning Linux by Leveraging Lightweight Labs and Ludicrous Lessons"
 authors = ["benx.guo"]
-language = "zh-CN"
-multilingual = false
+language = "en"
+
+[preprocessor.gettext]
+command = "mdbook-gettext"
+optional = true
 
 [build]
 build-dir = "book"
@@ -12,8 +15,8 @@ create-missing = true
 [output.html]
 default-theme = "light"
 git-repository-url = "https://github.com/bguo2/the-linux-luminarium-paper"
-git-repository-icon = "fa-github"
 edit-url-template = "https://github.com/bguo2/the-linux-luminarium-paper/edit/main/{path}"
+theme = "theme"
 
 [output.html.search]
 enable = true

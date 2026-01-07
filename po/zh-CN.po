@@ -1,0 +1,1332 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: The Linux Luminarium - 论文学习笔记\n"
+"POT-Creation-Date: 2026-01-07T13:38:46+08:00\n"
+"PO-Revision-Date: 2026-01-07T13:38:46+08:00\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: src/SUMMARY.md:1
+msgid "Summary"
+msgstr "目录"
+
+#: src/SUMMARY.md:3 src/abstract.md:1
+msgid "Abstract"
+msgstr "摘要"
+
+#: src/SUMMARY.md:5 src/introduction.md:1
+msgid "Introduction"
+msgstr "简介"
+
+#: src/SUMMARY.md:7 src/design.md:1
+msgid "Design"
+msgstr "设计"
+
+#: src/SUMMARY.md:8 src/design/instrumented-learning.md:1
+msgid "Instrumented Learning"
+msgstr "工具化学习"
+
+#: src/SUMMARY.md:9 src/design/capturing-flags.md:1
+msgid "Capturing Flags"
+msgstr "捕获旗帜"
+
+#: src/SUMMARY.md:10 src/design/the-curriculum.md:1
+msgid "The Curriculum"
+msgstr "课程设计"
+
+#: src/SUMMARY.md:12 src/related-work.md:1
+msgid "Related Work"
+msgstr "相关工作"
+
+#: src/SUMMARY.md:14 src/impact-and-results.md:1
+msgid "Impact and Results"
+msgstr "影响与结果"
+
+#: src/SUMMARY.md:15 src/impact-and-results/learners-beyond-our-university.md:1
+msgid "Learners Beyond our University"
+msgstr "校外学习者"
+
+#: src/SUMMARY.md:16 src/impact-and-results/learners-at-our-university.md:1
+msgid "Learners at our University"
+msgstr "校内学习者"
+
+#: src/SUMMARY.md:17 src/impact-and-results/community-involvement.md:1
+msgid "Community Involvement"
+msgstr "社区参与"
+
+#: src/SUMMARY.md:19 src/conclusion.md:1
+msgid "Conclusion"
+msgstr "结论"
+
+#: src/SUMMARY.md:21 src/references.md:1
+msgid "References"
+msgstr "引用"
+
+#: src/abstract.md:3
+msgid ""
+"Learning Linux typically involves high initial setup costs, creating a "
+"paradox in practice: beginners often must already possess some understanding "
+"of the Linux environment before they can effectively begin learning it. To "
+"address this challenge, we developed an online interactive learning "
+"curriculum with the core design goal of eliminating the learning barriers "
+"imposed by manual configuration. Our approach breaks down Linux core "
+"concepts into small, focused challenge tasks, enabling learners to achieve "
+"progressive mastery through active practice. Beyond traditional exercises, "
+"the curriculum introduces deliberately designed \"unconventional\" and even "
+"destructive learning scenarios, such as simulating system security "
+"intrusions, deploying `forkbomb`, and executing \"high-risk\" commands like "
+"`rm -rf /`, deepening understanding of system behavior through intense "
+"contrasting experiences. These \"shenanigan challenges\" not only strengthen "
+"learners' technical capabilities but also allow them to intuitively "
+"recognize the systemic consequences of erroneous operations, thereby gaining "
+"a more comprehensive understanding of the Linux environment's flexibility, "
+"power, and potential risks, significantly enhancing the engagement and "
+"immersion of the learning process."
+msgstr ""
+"学习 Linux 通常涉及高昂的初始设置成本，这在实践中形成了一个悖论：初学者往往必须已经对 Linux 环境有一定了解，才能有效地开始学习。为了解决这一挑战，我们开发了一个在线交互式学习课程，其核心设计目标是消除手动配置带来的学习障碍。我们的方法将 Linux 核心概念分解为小而专注的挑战任务，使学习者能够通过积极实践逐步掌握。除了传统练习外，课程还引入了精心设计的\"非常规\"甚至破坏性的学习场景，例如模拟系统安全入侵、部署 `forkbomb` 以及执行 `rm -rf /` 等\"高风险\"命令，通过强烈的对比体验加深对系统行为的理解。这些\"恶作剧挑战\"不仅增强了学习者的技术能力，还使他们能够直观地认识到错误操作的系统性后果，从而更全面地理解 Linux 环境的灵活性、强大功能和潜在风险，显著提高了学习过程的参与度和沉浸感。"
+
+#: src/abstract.md:5
+msgid "CCS Classification"
+msgstr "CCS 分类"
+
+#: src/abstract.md:7
+msgid "**Applied Computing -> Education; Interactive Learning Environments.**"
+msgstr "**应用计算 -> 教育;交互式学习环境。**"
+
+#: src/abstract.md:9
+msgid "Keywords"
+msgstr "关键字"
+
+#: src/abstract.md:11
+msgid "Linux Education, Educational Scaffolding"
+msgstr "Linux 教育,教育辅导"
+
+#: src/abstract.md:13
+msgid "**ACM Reference Format**"
+msgstr "**ACM 标准参考文献格式**"
+
+#: src/abstract.md:15
+msgid ""
+"Yan Shoshitaishvili, Adam Doupé, Connor Nelson. 2026. The Linux Luminarium: "
+"Learning Linux Through Lightweight Experimentation and Shenanigan-Driven "
+"Curriculum. In Proceedings of the 57th ACM Technical Symposium on Computer "
+"Science Education V. 1 (SIGCSE TS 2026), February 18–21, 2026, St. Louis, "
+"MO, USA. ACM, New York, NY, USA, 7 pages. [https://doi.org/"
+"10.1145/3770762.3772655](https://doi.org/10.1145/3770762.3772655)"
+msgstr ""
+"Yan Shoshitaishvili, Adam Doupé, Connor Nelson. 2026. The Linux Luminarium: "
+"Learning Linux Through Lightweight Experimentation and Shenanigan-Driven "
+"Curriculum. In Proceedings of the 57th ACM Technical Symposium on Computer "
+"Science Education V. 1 (SIGCSE TS 2026), February 18–21, 2026, St. Louis, "
+"MO, USA. ACM, New York, NY, USA, 7 pages. [https://doi.org/"
+"10.1145/3770762.3772655](https://doi.org/10.1145/3770762.3772655)"
+
+#: src/introduction.md:3
+msgid ""
+"A journey of a thousand miles begins with a single step. The learning "
+"journey in computer science education often needs to start from the "
+"fundamentals of the computing environment. Different educational "
+"institutions make varying choices for their environments: some standardize "
+"on Windows, others on Linux, and still others adopt emerging web "
+"technologies that allow students to proceed without mastering an operating "
+"system."
+msgstr ""
+"千里之行，始于足下。计算机科学教育的学习之旅往往需要从计算环境的基础开始。不同的教育机构对其环境做出不同的选择：有些标准化使用 Windows，有些使用 Linux，还有一些采用新兴的 Web 技术，允许学生在不掌握操作系统的情况下继续学习。"
+
+#: src/introduction.md:5
+msgid ""
+"The majority of our university's computer science curriculum expects "
+"students to possess Linux knowledge, yet prior to this work, our curriculum "
+"lacked any systematic Linux education. The absence of structured Linux "
+"instruction permeated and constrained students throughout their computer "
+"science learning journey \\[[12](references.md#ref12)\\], while also "
+"significantly increasing the burden on teaching staff—fundamental "
+"understanding issues that should have been resolved early were only "
+"discovered late in the coursework."
+msgstr ""
+"我们大学的大部分计算机科学课程期望学生具备 Linux 知识，然而在这项工作之前，我们的课程缺乏任何系统的 Linux 教育。缺乏结构化的 Linux 教学贯穿并制约了学生在整个计算机科学学习过程中的学习 \\[[12](references.md#ref12)\\]，同时也显著增加了教学人员的负担——本应在早期解决的基础理解问题直到课程后期才被发现。"
+
+#: src/introduction.md:7
+msgid ""
+"This paper introduces a novel platform we developed to address this problem: "
+"the Linux Luminarium. Inspired by the rise of a new paradigm in "
+"cybersecurity education in 2024 \\[[17](references.md#ref17)\\], we designed "
+"and implemented the Linux Luminarium, a turnkey, well-structured, challenge-"
+"driven Linux learning platform. The Linux Luminarium contains 108 challenges "
+"distributed across 15 subject modules, with content ranging from learning "
+"command-line concepts to advanced exploration of the Linux security model."
+msgstr ""
+"受到 2024 年网络安全教育新范式兴起的启发 \\[[17](references.md#ref17)\\]，我们设计并实现了 Linux Luminarium，这是一个开箱即用、结构良好、以挑战为驱动的 Linux 学习平台。Linux Luminarium 包含分布在 15 个主题模块中的 108 个挑战，内容从学习命令行概念到深入探索 Linux 安全模型。"
+
+#: src/introduction.md:9
+msgid ""
+"To maximize learning effectiveness, the Linux Luminarium introduces multiple "
+"innovative features not found in other Linux education platforms, including "
+"deep shell-based instrumentation mechanisms that provide real-time guidance "
+"and feedback during the learning process; support mechanisms that identify "
+"and correct errors in real-time before learners experience frustration; and "
+"challenge randomization to promote continuous exploration of Linux concepts."
+msgstr ""
+"为了最大化学习效果，Linux Luminarium 引入了其他 Linux 教育平台所没有的多项创新功能，包括基于 shell 的深度工具化机制，在学习过程中提供实时指导和反馈；在学习者感到沮丧之前实时识别和纠正错误的支持机制；以及挑战随机化以促进对 Linux 概念的持续探索。"
+
+#: src/introduction.md:11
+msgid ""
+"We opened the Linux Luminarium to the public on May 1, 2024. As of July 1, "
+"2025, the platform has provided learning support to 15,394 learners "
+"(including both students from our university and external users) and has "
+"cumulatively completed 697,553 challenges. We also deployed the Linux "
+"Luminarium as an instructional module in a required junior-year computer "
+"science course at our university. According to observational feedback from "
+"the teaching process, Linux-related learning issues in subsequent coursework "
+"have significantly decreased."
+msgstr ""
+"我们于 2024 年 5 月 1 日向公众开放了 Linux Luminarium。截至 2025 年 7 月 1 日，该平台已为 15,394 名学习者（包括我们大学的学生和外部用户）提供学习支持，并累计完成了 697,553 个挑战。我们还将 Linux Luminarium 部署为我们大学大三计算机科学必修课程的教学模块。根据教学过程的观察反馈，后续课程中与 Linux 相关的学习问题已显著减少。"
+
+#: src/introduction.md:13
+msgid ""
+"To evaluate the educational effectiveness of the Linux Luminarium, we "
+"conducted two surveys (both reviewed by our Institutional Review Board and "
+"determined to be Exempt). One survey collected feedback from 47 external "
+"learners, while the other was directed at 405 junior-year computer science "
+"students at our university. The results from both surveys consistently "
+"demonstrate that the Linux Luminarium is an effective teaching tool, not "
+"only addressing the frustration learners commonly experienced when learning "
+"Linux prior to using the Linux Luminarium, but also significantly improving "
+"their Linux-related knowledge levels. Additionally, the survey results "
+"indicate that the innovative design elements we proposed played a critical "
+"role in achieving these outcomes."
+msgstr ""
+"为了评估 Linux Luminarium 的教育效果，我们进行了两项调查（均经过我们机构审查委员会的审查并确定为豁免）。一项调查收集了 47 名外部学习者的反馈，另一项针对我们大学 405 名大三计算机科学学生。两项调查的结果一致表明，Linux Luminarium 是一种有效的教学工具，不仅解决了学习者在使用 Linux Luminarium 之前学习 Linux 时普遍遇到的挫败感，还显著提高了他们与 Linux 相关的知识水平。此外，调查结果表明，我们提出的创新设计元素在实现这些成果方面发挥了关键作用。"
+
+#: src/introduction.md:15
+msgid ""
+"Our goal is to make the Linux Luminarium an important entry platform for "
+"learners worldwide who are interested in Linux as they begin their computing "
+"learning journey. To achieve this goal, the Linux Luminarium is freely "
+"available to all users, and all platform components are released as open "
+"source, enabling the community to continuously advance research and "
+"development on this foundation."
+msgstr ""
+"我们的目标是使 Linux Luminarium 成为全球对 Linux 感兴趣的学习者在开始计算学习之旅时的重要入门平台。为了实现这一目标，Linux Luminarium 免费向所有用户开放，所有平台组件都作为开源发布，使社区能够在此基础上持续推进研究和开发。"
+
+#: src/design.md:3
+msgid "Multiple objectives motivated the creation of the Linux Luminarium:"
+msgstr "多个目标促成了 Linux Luminarium 的创建:"
+
+#: src/design.md:5
+msgid ""
+"**Minimal Hardware Requirements.** We wanted to make it accessible to people "
+"from diverse backgrounds, including those who cannot regularly access "
+"computers with development or virtualization capabilities."
+msgstr ""
+"**最低硬件要求。**我们希望让来自不同背景的人都能使用它，包括那些无法定期访问具有开发或虚拟化功能的计算机的人。"
+
+#: src/design.md:7
+msgid ""
+"**Minimal Prior Knowledge.** Ideally, learners should only need minimal "
+"technical background to engage with the Linux Luminarium (e.g., only needing "
+"to know how to use a web browser). We deliberately avoided assuming users "
+"already understand file systems, processes, source code, executable files, "
+"and almost all other technical concepts."
+msgstr ""
+"**最少前置知识。**理想情况下，学习者只需要最少的技术背景即可使用 Linux Luminarium（例如，只需要知道如何使用 Web 浏览器）。我们刻意避免假设用户已经理解文件系统、进程、源代码、可执行文件以及几乎所有其他技术概念。"
+
+#: src/design.md:9
+msgid ""
+"**Minimal Conceptual Span.** Considering that learners are unfamiliar with "
+"the relevant concepts, we worked to decompose the Linux learning process "
+"into a series of small steps that progressively accumulate to ultimately "
+"form a solid and systematic understanding."
+msgstr ""
+"**最小概念跨度。**考虑到学习者不熟悉相关概念，我们努力将 Linux 学习过程分解为一系列小步骤，逐步积累，最终形成扎实而系统的理解。"
+
+#: src/design.md:11
+msgid ""
+"**Guardrails.** As experienced educators, we observed that learners can go "
+"astray in multiple ways during the learning process. Therefore, we worked to "
+"create a learning environment that allows learners to explore freely while "
+"minimizing errors that deviate from the main learning path and cause "
+"learning blockages."
+msgstr ""
+"**防护措施。**作为经验丰富的教育工作者，我们观察到学习者在学习过程中可能会以多种方式偏离正轨。因此，我们努力创建一个学习环境，允许学习者自由探索，同时最大限度地减少偏离主要学习路径并导致学习障碍的错误。"
+
+#: src/design.md:13
+msgid ""
+"**Engagement.** Our goal is to maintain learner motivation through regular "
+"positive feedback reinforcement and community participation."
+msgstr ""
+"**参与度。**我们的目标是通过定期的积极反馈强化和社区参与来维持学习者的动机。"
+
+#: src/design.md:15
+msgid ""
+"Based on the above objectives, we chose pwn.college's DOJO platform \\[[17]"
+"(references.md#ref17)\\] as the infrastructure for the Linux Luminarium. "
+"DOJO provides an open-source, web-accessible Linux environment: instructors "
+"can implement and deploy assignments within it; the platform simultaneously "
+"provides instructors with advanced runtime and behavioral instrumentation "
+"capabilities; and it can still provide security guarantees when facing \"too-"
+"clever\" students to maintain the pedagogical integrity of assignments. We "
+"adopted the PWN teaching philosophy inspired by Capture-the-Flag (CTF) \\"
+"[[18](references.md#ref18)\\], which advocates teaching continuous \"micro-"
+"concepts\" through a series of progressively complex hands-on challenges. To "
+"this end, we break down complex concepts into smaller constituent units and "
+"convey each unit through independent, very small challenges; these "
+"challenges build upon each other, ultimately constructing a progressive "
+"understanding of the overall concept. On top of this platform and teaching "
+"philosophy, we further introduced multiple customized innovations targeting "
+"the early Linux learning stage and implemented a complete and systematic "
+"curriculum, which will be detailed below."
+msgstr ""
+"基于上述目标，我们选择 pwn.college 的 DOJO 平台 \\[[17](references.md#ref17)\\] 作为 Linux Luminarium 的基础设施。DOJO 提供了一个开源的、可通过 Web 访问的 Linux 环境：教师可以在其中实现和部署作业；该平台同时为教师提供高级运行时和行为工具化能力；在面对\"过于聪明\"的学生时，它仍然可以提供安全保证，以维护作业的教学完整性。我们采用了受夺旗（CTF）启发的 PWN 教学理念 \\[[18](references.md#ref18)\\]，该理念主张通过一系列逐步复杂的实践挑战来教授连续的\"微概念\"。为此，我们将复杂概念分解为更小的组成单元，并通过独立的、非常小的挑战来传达每个单元；这些挑战相互构建，最终形成对整体概念的渐进式理解。在这个平台和教学理念的基础上，我们进一步引入了多项针对早期 Linux 学习阶段的定制创新，并实现了一个完整而系统的课程，下面将详细介绍。"
+
+#: src/design/instrumented-learning.md:3
+msgid ""
+"The DOJO platform gives assignment authors significant control over the "
+"learner's web-accessible working environment. We used this flexibility to "
+"implement a number of novel instrumentation hooks that serve as our "
+"guardrails to improve student learning."
+msgstr ""
+"DOJO 平台为作业作者提供了对学习者可通过 Web 访问的工作环境的显著控制。我们利用这种灵活性实现了许多新颖的工具化钩子，作为我们的防护措施来改善学生学习。"
+
+#: src/design/instrumented-learning.md:5
+msgid ""
+"**Challenge randomization.** DOJO exposes an interface for running setup "
+"code when a learner launches a challenge. We use this in a large number of "
+"places in the Linux Luminarium, such as randomizing the location of files "
+"that learners must find (e.g., to learn the find command), data to filter "
+"(to practice grep), and so on."
+msgstr ""
+"**挑战随机化。**DOJO 提供了一个接口，用于在学习者启动挑战时运行设置代码。我们在 Linux Luminarium 的许多地方使用此功能，例如随机化学习者必须查找的文件位置（例如，学习 find 命令）、要过滤的数据（练习 grep）等。"
+
+#: src/design/instrumented-learning.md:7
+msgid ""
+"We use two different forms of randomization: per-attempt (using a "
+"pseudorandom number generator) and per-learner (achieved by hashing the /"
+"flag file, which is stable per learner-challenge tuple), depending on the "
+"specific challenge. The latter allows us to differentiate challenges between "
+"learners to minimize the spread of written solutions (which reduce active "
+"learning to passive learning), while the former increases challenge variety "
+"in general."
+msgstr ""
+"我们使用两种不同形式的随机化：每次尝试（使用伪随机数生成器）和每个学习者（通过对 /flag 文件进行哈希实现，该文件对每个学习者-挑战元组是稳定的），具体取决于特定挑战。后者允许我们在学习者之间区分挑战，以最小化书面解决方案的传播（这会将主动学习降低为被动学习），而前者总体上增加了挑战的多样性。"
+
+#: src/design/instrumented-learning.md:9
+msgid ""
+"**Shell instrumentation.** We expanded the DOJO platform (and up streamed "
+"the resulting contribution) to enable hooking of a learner's `.bashrc`, "
+"allowing our challenges to customize learner shell sessions."
+msgstr ""
+"**Shell 工具化。**我们扩展了 DOJO 平台（并将结果贡献上游）以支持钩取学习者的 `.bashrc`，允许我们的挑战自定义学习者的 shell 会话。"
+
+#: src/design/instrumented-learning.md:11
+msgid ""
+"We use this, combined with bash's rich debug capabilities, to enable "
+"significant observability for the challenge of the learner's attempts to "
+"solve it. For example, when teaching paths and the cd command, we can "
+"directly detect (by tracking the PWD environment variable) when a learner "
+"enters the correct directory. Furthermore, by hooking each line entered into "
+"the shell, we can ensure that learners properly use absolute paths (in "
+"challenges that aim to teach them) versus relative paths (when the "
+"curriculum moves on to that) or properly use file globbing, tab completion, "
+"and so on as these concepts are taught."
+msgstr ""
+"我们使用这个功能，结合 bash 丰富的调试能力，为学习者解决挑战的尝试提供显著的可观察性。例如，在教授路径和 cd 命令时，我们可以直接检测（通过跟踪 PWD 环境变量）学习者何时进入正确的目录。此外，通过钩取输入 shell 的每一行，我们可以确保学习者正确使用绝对路径（在旨在教授它们的挑战中）与相对路径（当课程进展到该部分时），或者在教授这些概念时正确使用文件通配、制表符补全等。"
+
+#: src/design/instrumented-learning.md:13
+msgid ""
+"**Command hooking.** We use the aforementioned shell instrumentation to set "
+"the learner's PATH environment variable to allow challenges to easily "
+"override commands, letting us inject guardrails and feedback into the "
+"commands themselves."
+msgstr ""
+"**命令钩取。**我们使用上述 shell 工具化来设置学习者的 PATH 环境变量，允许挑战轻松覆盖命令，让我们能够将防护措施和反馈注入到命令本身中。"
+
+#: src/design/instrumented-learning.md:15
+msgid ""
+"For example, when we teach advanced usage of the tee command, our tee "
+"wrapper actually inspects the arguments to determine whether the learner is "
+"on the right path."
+msgstr ""
+"例如，当我们教授 tee 命令的高级用法时，我们的 tee 包装器实际上会检查参数以确定学习者是否走在正确的道路上。"
+
+#: src/design/instrumented-learning.md:17
+msgid ""
+"**Error anticipation.** We have observed learners making a large number of "
+"mistakes when learning Linux. A common example is case sensitivity: learners "
+"unfamiliar with Computer Science might not understand that files and shell "
+"variables are case-sensitive. A combination of our shell introspection, "
+"command hooking, and mistake prediction allows us to preempt many of these "
+"errors."
+msgstr ""
+"**错误预期。**我们观察到学习者在学习 Linux 时会犯大量错误。一个常见的例子是大小写敏感性：不熟悉计算机科学的学习者可能不理解文件和 shell 变量是区分大小写的。我们的 shell 内省、命令钩取和错误预测的结合使我们能够预先阻止许多此类错误。"
+
+#: src/design/instrumented-learning.md:19
+msgid ""
+"For example, a challenge that asks the learner to use cat to read the `/"
+"flag` file would also include a /FLAG file with content informing the "
+"learner of the casing mistake, a CAT command doing the same, a flag command "
+"explaining that the command they want is cat, and a shell hook detecting the "
+"errant attempt to execute the `/flag` file directly. Likewise, when teaching "
+"how to set environment variables (e.g., NAME=VALUE), we include a VALUE "
+"command (to catch the case where the learner does NAME= VALUE) and a NAME "
+"command (to catch NAME = VALUE)."
+msgstr ""
+"例如，一个要求学习者使用 cat 读取 `/flag` 文件的挑战还会包括一个 /FLAG 文件，其内容告知学习者大小写错误，一个执行相同操作的 CAT 命令，一个解释他们想要的命令是 cat 的 flag 命令，以及一个检测直接执行 `/flag` 文件的错误尝试的 shell 钩子。同样，在教授如何设置环境变量（例如，NAME=VALUE）时，我们包括一个 VALUE 命令（以捕获学习者执行 NAME= VALUE 的情况）和一个 NAME 命令（以捕获 NAME = VALUE）。"
+
+#: src/design/instrumented-learning.md:21
+msgid ""
+"Naturally, predicting all such errors is impossible. To remedy this, we "
+"monitor interactions with our environment and voiced student frustrations on "
+"our online Discord community. As we notice common mistakes made by learners, "
+"we augment the error anticipation logic to catch these mistakes as well."
+msgstr ""
+"当然，预测所有此类错误是不可能的。为了弥补这一点，我们监控与环境的交互，并在我们的在线 Discord 社区中倾听学生的挫败感。当我们注意到学习者犯的常见错误时，我们会增强错误预期逻辑以捕获这些错误。"
+
+#: src/design/instrumented-learning.md:23
+msgid ""
+"**Integrity and robustness.** Our curriculum involves some security relevant "
+"concepts and, once users learn these concepts, it becomes difficult to "
+"prevent them from finding unintended solutions (and thus potentially missing "
+"the pedagogical point of the challenge). We expanded DOJO to try to head off "
+"such solutions. For example, we use bash's debug capabilities to hook and "
+"immediately terminate sub shells, as so:"
+msgstr ""
+"**完整性和健壮性。**我们的课程涉及一些与安全相关的概念，一旦用户学习了这些概念，就很难阻止他们找到非预期的解决方案（从而可能错过挑战的教学要点）。我们扩展了 DOJO 以尝试阻止此类解决方案。例如，我们使用 bash 的调试功能来钩取并立即终止子 shell，如下所示："
+
+#: src/design/instrumented-learning.md:25
+msgid "`trap '[[ $BASH_SUB SHELL -gt 0 ]] && exit' DEBUG`"
+msgstr "`trap '[[ $BASH_SUB SHELL -gt 0 ]] && exit' DEBUG`"
+
+#: src/design/capturing-flags.md:3
+msgid ""
+"The DOJO platform is inspired by \"Capture The Flag\" (CTF) competitions, "
+"which are typically live cybersecurity events in which participants must "
+"exploit hacking challenges (e.g., by exploiting them) to retrieve a "
+"cryptographic \"flag\" token and submit it for points. These events are very "
+"popular in the cybersecurity community, and have been observed to be "
+"effective tools in the educator's toolbox \\[[7](../references.md#ref7), [11]"
+"(../references.md#ref11), [14](../references.md#ref14), [16](../"
+"references.md#ref16), [18](../references.md#ref18), [28](../"
+"references.md#ref28)\\]."
+msgstr ""
+"DOJO 平台受到\"夺旗\"（CTF）竞赛的启发，这些竞赛通常是现场网络安全活动，参与者必须利用黑客挑战（例如，通过利用它们）来检索加密的\"旗帜\"令牌并提交以获得分数。这些活动在网络安全社区中非常受欢迎，并已被观察到是教育工作者工具箱中的有效工具 \\[[7](../references.md#ref7), [11](../references.md#ref11), [14](../references.md#ref14), [16](../references.md#ref16), [18](../references.md#ref18), [28](../references.md#ref28)\\]。"
+
+#: src/design/capturing-flags.md:5
+msgid ""
+"Each challenge is essentially equivalent to an auto-grading script that "
+"implicitly checks a learner's solution (whether actively, such as checking "
+"if the learner has cded into a specified directory, or passively, by being "
+"written in a way that the user can only retrieve the flag by solving the "
+"challenge). In an example of the former, the first time paths are taught, "
+"the Linux Luminarium instruments the shell to detect when a learner enters "
+"the correct directory, at which point it prints the flag. For the latter, "
+"when we teach the chmod command for changing file permissions, the learner "
+"must chmod the flag file to read the flag."
+msgstr ""
+"每个挑战本质上等同于一个自动评分脚本，它隐式检查学习者的解决方案（无论是主动的，例如检查学习者是否已 cd 到指定目录，还是被动的，通过以用户只能通过解决挑战来检索旗帜的方式编写）。在前者的一个例子中，第一次教授路径时，Linux Luminarium 工具化 shell 以检测学习者何时进入正确的目录，此时它会打印旗帜。对于后者，当我们教授用于更改文件权限的 chmod 命令时，学习者必须对旗帜文件执行 chmod 才能读取旗帜。"
+
+#: src/design/capturing-flags.md:7
+msgid ""
+"In the pwn.college DOJO, these flags are tracked and aggregated as the "
+"learner's score, motivating learners to keep pushing the boundaries of their "
+"knowledge."
+msgstr ""
+"在 pwn.college DOJO 中，这些旗帜被跟踪并聚合为学习者的分数，激励学习者不断推动其知识的边界。"
+
+#: src/design/the-curriculum.md:3
+msgid ""
+"Our application of the PWN philosophy to Linux education resulted in 108 "
+"challenges across 15 sub-modules. Each sub-module consists of 3 to 13 "
+"challenges, and each challenge explores one micro-concept, building up in "
+"aggregate to imbue the learner with Linux knowledge."
+msgstr ""
+"我们将 PWN 理念应用于 Linux 教育，产生了分布在 15 个子模块中的 108 个挑战。每个子模块包含 3 到 13 个挑战，每个挑战探索一个微概念，通过积累为学习者灌输 Linux 知识。"
+
+#: src/design/the-curriculum.md:5
+msgid ""
+"Our curriculum starts out with challenges that use a heavily instrumented "
+"shell session to explain the concept of Linux commands and arguments from a "
+"syntactic perspective (e.g., having the user run toy commands for practice). "
+"The next module introduces the Linux filesystem and the cd command to "
+"explore it. Each type of path (absolute paths, "naked" (no ./) and non-naked "
+"relative paths), is explored in its own challenge or series of challenges, "
+"minimizing the concepts conveyed per challenge. The next module explores a "
+"number of commands to help the learner start actually using the command line "
+"(ls, etc.). Then the Linux Luminarium covers the reading and search of "
+"documentation (using functionality of man, help, and `–help` flags). After "
+"this, we cover a series of increasingly complex topics such as file "
+"globbing, piping, setting and reading shell variables, and manipulating "
+"data. Then aspects of the Linux operating system itself are introduced: "
+"processes, permissions, users, and scripts. Finally, the curriculum ends on "
+"a series of culminating experiences, described below."
+msgstr ""
+"我们的课程从使用高度工具化的 shell 会话的挑战开始，从语法角度解释 Linux 命令和参数的概念（例如，让用户运行玩具命令进行练习）。下一个模块介绍 Linux 文件系统和 cd 命令来探索它。每种类型的路径（绝对路径、"裸"（无 ./）和非裸相对路径）都在其自己的挑战或一系列挑战中进行探索，最小化每个挑战传达的概念。下一个模块探索一些命令，帮助学习者开始实际使用命令行（ls 等）。然后 Linux Luminarium 涵盖文档的阅读和搜索（使用 man、help 和 `–help` 标志的功能）。在此之后，我们涵盖一系列日益复杂的主题，如文件通配、管道、设置和读取 shell 变量以及操作数据。然后介绍 Linux 操作系统本身的方面：进程、权限、用户和脚本。最后，课程以一系列总结性体验结束，如下所述。"
+
+#: src/design/the-curriculum.md:7
+msgid ""
+"The PWN philosophy suggests that approaching concepts from an adversarial/"
+"security mindset enables unique insights into those concepts \\[[18](../"
+"references.md#ref18)\\]. We struggled adopting this part of the philosophy "
+"for much of the Linux Luminarium, as the concepts were simply too "
+"introductory to even discuss security. However, toward the end of the "
+"curriculum, after covering the topics described above, opportunities begin "
+"to arise, and we are able to use a series of security challenges to "
+"reinforce the concepts we'd previously taught.Specifically, these are:"
+msgstr ""
+"PWN 理念建议从对抗性/安全思维模式接近概念能够对这些概念产生独特的见解 \\[[18](../references.md#ref18)\\]。我们在 Linux Luminarium 的大部分内容中采用这一理念时遇到了困难，因为概念太基础，甚至无法讨论安全。然而，在课程接近尾声时，在涵盖上述主题之后，机会开始出现，我们能够使用一系列安全挑战来强化我们之前教授的概念。具体来说，这些是："
+
+#: src/design/the-curriculum.md:9
+msgid ""
+"**Cracking account passwords.** To drive home the concept of users and "
+"permissions, we have a series of challenges where learners must crack "
+"passwords of users created by the challenge. This is a fairly standard part "
+"of a Linux security curriculum but sets the stage for more advanced "
+"challenges."
+msgstr ""
+"**破解账户密码。**为了深入理解用户和权限的概念，我们有一系列挑战，学习者必须破解由挑战创建的用户密码。这是 Linux 安全课程中相当标准的部分，但为更高级的挑战奠定了基础。"
+
+#: src/design/the-curriculum.md:11
+msgid ""
+"**PATH hijack.** To convey how Linux finds programs to invoke, we teach "
+"about the PATH variable and have the user practice its hijacking to override "
+"common utilities and gain control of program execution (to retrieve the `/"
+"flag` file)."
+msgstr ""
+"**PATH 劫持。**为了传达 Linux 如何查找要调用的程序，我们教授 PATH 变量，并让用户练习其劫持以覆盖常用实用程序并获得程序执行的控制权（以检索 `/flag` 文件）。"
+
+#: src/design/the-curriculum.md:13
+msgid ""
+"**.bashrc hijack.** To explore implications of incorrect file permissions, "
+"we have a series of challenges in which learners can hijack other user "
+"accounts by exploiting unsafe permissions to hijack the victim "
+"user's .bashrc. This explores, through several challenges, bad file "
+"(`.bashrc`) permissions, the implications of unsafe directory permissions "
+"(e.g., world-writable home directory), and the effects of unsafe handling of "
+"symbolic links. We observed, and learners reported, that this improved both "
+"understanding of and passion for the material."
+msgstr ""
+"**.bashrc 劫持。**为了探索不正确文件权限的影响，我们有一系列挑战，学习者可以通过利用不安全的权限来劫持其他用户账户，劫持受害用户的 .bashrc。这通过几个挑战探索了不良文件（`.bashrc`）权限、不安全目录权限的影响（例如，全局可写的家目录）以及不安全处理符号链接的影响。我们观察到，学习者报告说，这提高了对材料的理解和热情。"
+
+#: src/design/the-curriculum.md:15
+msgid ""
+"**Linux destruction.** Mistakes, though we try to minimize them throughout "
+"the rest of the Linux Luminarium, are often the best teacher. Most Linux "
+"veterans have, at some point, deleted something they did not mean to, "
+"overwhelmed their machine with errant processes, and so on. Observing the "
+"teaching potential of this, we created a series of challenges at the end of "
+"the curriculum in which learners intentionally carry out these "mistakes" to "
+"destroy their environment in various ways: `rm -rf /`, a fork bomb, and "
+"filling the disk."
+msgstr ""
+"**Linux 破坏。**错误，尽管我们在 Linux Luminarium 的其余部分努力最小化它们，但往往是最好的老师。大多数 Linux 老手在某个时候都曾删除过他们不想删除的东西，用错误的进程压垮他们的机器等等。观察到这种教学潜力，我们在课程结束时创建了一系列挑战，学习者故意执行这些"错误"以各种方式破坏他们的环境：`rm -rf /`、fork bomb 和填满磁盘。"
+
+#: src/related-work.md:3
+msgid ""
+"Linux Luminarium is not the first attempt to create a platform via which to "
+"teach Linux: other approaches have been proposed and implemented by "
+"educators and enthusiasts alike. These Linux education resources fall into "
+"two categories: interactive and non interactive. A plethora of non-"
+"interactive resources have been developed to teach Linux. These take the "
+"form of organized lessons \\[[21](references.md#ref21)\\], textbooks \\[[8]"
+"(references.md#ref8), [13](references.md#ref13)\\], video collections, and "
+"countless Massive Open Online Courses (MOOCs). All of these tend to take the "
+"form of video or text lessons with suggested concepts for the learner to "
+"practice (e.g., "make a file and then find it using the find command"), "
+"lacking the structured feedback of Linux Luminarium."
+msgstr ""
+"Linux Luminarium 并不是第一个创建用于教授 Linux 的平台尝试：教育工作者和爱好者都提出并实施了其他方法。这些 Linux 教育资源分为两类：交互式和非交互式。已经开发了大量非交互式资源来教授 Linux。这些采用有组织的课程 \\[[21](references.md#ref21)\\]、教科书 \\[[8](references.md#ref8), [13](references.md#ref13)\\]、视频集合和无数大规模开放在线课程（MOOC）的形式。所有这些都倾向于采用视频或文本课程的形式，为学习者提供建议的概念进行练习（例如，"创建一个文件，然后使用 find 命令找到它"），缺乏 Linux Luminarium 的结构化反馈。"
+
+#: src/related-work.md:5
+msgid ""
+"Interactive resources can be further split into offline and online styles. "
+"In the former, the learner is presented with a virtual machine to download "
+"or install, or assumed to already have a Linux environment, and is "
+"encouraged to practice learned concepts in that VM \\[[1]"
+"(references.md#ref1), [4](references.md#ref4), [9](references.md#ref9), [25]"
+"(references.md#ref25)\\]. Unfortunately, this is suboptimal for two reasons. "
+"First, it presents a sort of chicken-and-egg problem: learners are assumed "
+"to be proficient enough in computing to install virtual machines, and in "
+"cases where they are not, cannot undertake the lesson. Second, the "
+"possibility of instructor instrumentation and measurement of success are "
+"extremely limited, a reason that, beyond first-stage Linux education, has "
+"recently driven education platforms online \\[[17](references.md#ref17)\\]."
+msgstr ""
+"交互式资源可以进一步分为离线和在线两种风格。在前者中，向学习者提供要下载或安装的虚拟机，或假设他们已经拥有 Linux 环境，并鼓励在该 VM 中练习学到的概念 \\[[1](references.md#ref1), [4](references.md#ref4), [9](references.md#ref9), [25](references.md#ref25)\\]。不幸的是，由于两个原因，这是次优的。首先，它呈现了一种鸡生蛋蛋生鸡的问题：假设学习者在计算方面足够熟练以安装虚拟机，而在他们不熟练的情况下，无法进行课程。其次，教师工具化和成功测量的可能性极其有限，这是最近推动教育平台在线化的原因，超越了第一阶段的 Linux 教育 \\[[17](references.md#ref17)\\]。"
+
+#: src/related-work.md:7
+msgid ""
+"Online platforms benefit from ease of access, but are complex to implement "
+"for instructors and platform developers. A number of browser-accessible "
+"Linux environments have been created for non-educational purposes, typically "
+"as tech demos \\[[3](references.md#ref3), [10](references.md#ref10)\\], for "
+"use in software development \\[[20](references.md#ref20), [23]"
+"(references.md#ref23)\\], or for later-stage education \\[[5]"
+"(references.md#ref5), [6](references.md#ref6), [15](references.md#ref15), "
+"[17](references.md#ref17), [26](references.md#ref26), [27]"
+"(references.md#ref27)\\]. Several have been created to enable direct "
+"practice of Linux concepts through a learner's browser. This property is "
+"shared with Linux Luminarium, though the specifics of our pedagogical "
+"approach and materials differ."
+msgstr ""
+"在线平台受益于易于访问，但对教师和平台开发人员来说实现起来很复杂。已经创建了许多可通过浏览器访问的 Linux 环境，用于非教育目的，通常作为技术演示 \\[[3](references.md#ref3), [10](references.md#ref10)\\]，用于软件开发 \\[[20](references.md#ref20), [23](references.md#ref23)\\]，或用于后期教育 \\[[5](references.md#ref5), [6](references.md#ref6), [15](references.md#ref15), [17](references.md#ref17), [26](references.md#ref26), [27](references.md#ref27)\\]。已经创建了几个平台，使学习者能够通过浏览器直接练习 Linux 概念。这个特性与 Linux Luminarium 共享，尽管我们的教学方法和材料的具体细节不同。"
+
+#: src/related-work.md:9
+msgid ""
+"**OverTheWire Bandit** \\[[19](references.md#ref19)\\] implements a Linux "
+"learning platform through a network-accessible virtual machine. Learners use "
+"a Secure Shell (SSH) client to connect and tackle challenges, with "
+"successful completion of a challenge culminating in the password for the "
+"next level. Bandit lacks both the turnkey access (requiring learners to set "
+"up SSH) and instrumented challenge feedback features of Linux Luminarium, "
+"and as a result its challenges take very large leaps: the very basics of "
+"commandline usage span fewer than 10 challenges, throwing learners into the "
+"thick of things quickly."
+msgstr ""
+"**OverTheWire Bandit** \\[[19](references.md#ref19)\\] 通过可通过网络访问的虚拟机实现了一个 Linux 学习平台。学习者使用安全 Shell（SSH）客户端连接并应对挑战，成功完成挑战最终获得下一级的密码。Bandit 既缺乏开箱即用的访问（要求学习者设置 SSH），也缺乏 Linux Luminarium 的工具化挑战反馈功能，因此其挑战跨度非常大：命令行使用的基础知识跨越不到 10 个挑战，很快将学习者推入复杂的内容中。"
+
+#: src/related-work.md:11
+msgid ""
+"**linuxzoo** \\[[22](references.md#ref22)\\] provides GUI and Command-Line "
+"access to student dedicated Virtual Machines via the browser. Unlike Linux "
+"Luminarium, linuxzoo's grading is done "on-demand": when a learner achieves "
+"the goal of a lesson, they click the Check button to have the grading system "
+"check the state of the VM. This limits linuxzoo to less granular lessons, "
+"typically requiring external reading material to fill knowledge gaps, rather "
+"than the micro-concept approach of the Linux Luminarium."
+msgstr ""
+"**linuxzoo** \\[[22](references.md#ref22)\\] 通过浏览器提供对学生专用虚拟机的 GUI 和命令行访问。与 Linux Luminarium 不同，linuxzoo 的评分是"按需"完成的：当学习者达到课程目标时，他们点击检查按钮让评分系统检查 VM 的状态。这限制了 linuxzoo 只能进行不太细粒度的课程，通常需要外部阅读材料来填补知识空白，而不是 Linux Luminarium 的微概念方法。"
+
+#: src/related-work.md:13
+msgid ""
+"**Webminal** \\[[29](references.md#ref29)\\] provides a web-accessible Linux "
+"terminal backed by a dedicated Linux instance and pairs this with community "
+"support to help overcome hurdles. Unlike Linux Luminarium, Webminal focuses "
+"on example-based learning: the learner is typically told what to execute and "
+"explained what the results mean, with the actual interaction mostly carried "
+"out to duplicate the lesson contents. As shown by our survey, the challenge-"
+"based nature of the Linux Luminarium is a critical part of learning."
+msgstr ""
+"**Webminal** \\[[29](references.md#ref29)\\] 提供了一个由专用 Linux 实例支持的可通过 Web 访问的 Linux 终端，并将其与社区支持配对以帮助克服障碍。与 Linux Luminarium 不同，Webminal 专注于基于示例的学习：通常告诉学习者要执行什么并解释结果的含义，实际交互主要是为了复制课程内容。正如我们的调查所示，Linux Luminarium 基于挑战的性质是学习的关键部分。"
+
+#: src/related-work.md:16
+msgid ""
+"**uAssign** \\[[2](references.md#ref2)\\] proposed a containerized, web-"
+"accessible Linux terminal for Linux education. The authors focus "
+"predominantly on scalability and integration, and other than supporting "
+"parameterized randomization, do not discuss the design of the educational "
+"material itself, which is not available online. To the best of our "
+"knowledge, uAssign does not explore the granular lessons or the instrumented "
+"challenge feedback enabled by the Linux Luminarium."
+msgstr ""
+"**uAssign** \\[[2](references.md#ref2)\\] 提出了一个用于 Linux 教育的容器化、可通过 Web 访问的 Linux 终端。作者主要关注可扩展性和集成，除了支持参数化随机化外，没有讨论教育材料本身的设计，该材料不在线提供。据我们所知，uAssign 没有探索 Linux Luminarium 启用的细粒度课程或工具化挑战反馈。"
+
+#: src/related-work.md:18
+msgid ""
+"**TermAdventure** \\[[24](references.md#ref24)\\] is a learner-hosted "
+"technique that instruments a shell session to turn their sessions into a "
+"text adventure game, letting them learn in the course of completing the "
+"game. The authors have open-sourced the core code of the tool, but not the "
+"implemented levels of the game, making it difficult to assess what level of "
+"instrumentation, beyond the directory-changing detection described in the "
+"paper, is possible. Conversely, the Linux Luminarium is centrally-hosted "
+"(and turnkey-accessible), supports extensive instrumentation, and provides "
+"open curricula for teaching most concepts in early Linux learning."
+msgstr ""
+"**TermAdventure** \\[[24](references.md#ref24)\\] 是一种学习者托管的技术，它工具化 shell 会话，将会话转换为文本冒险游戏，让他们在完成游戏的过程中学习。作者已经开源了工具的核心代码，但没有开源游戏的实现级别，这使得很难评估除了论文中描述的目录更改检测之外，可能达到什么级别的工具化。相反，Linux Luminarium 是集中托管的（并且可开箱即用），支持广泛的工具化，并提供开放课程以教授早期 Linux 学习中的大多数概念。"
+
+#: src/related-work.md:20
+msgid ""
+"Finally, the Linux Luminarium far from the first CTF-inspired education "
+"platform \\[[7](references.md#ref7), [11](references.md#ref11), [14]"
+"(references.md#ref14), [16](references.md#ref16), [18](references.md#ref18), "
+"[28](references.md#ref28)\\], but it is the first combining its unique "
+"features to enable seamless learning of Linux for learners around the world."
+msgstr ""
+"最后，Linux Luminarium 远非第一个受 CTF 启发的教育平台 \\[[7](references.md#ref7), [11](references.md#ref11), [14](references.md#ref14), [16](references.md#ref16), [18](references.md#ref18), [28](references.md#ref28)\\]，但它是第一个结合其独特功能以支持全球学习者无缝学习 Linux 的平台。"
+
+#: src/impact-and-results.md:3
+msgid ""
+"We opened the Linux Luminarium to the world on May 1, 2024, relying on word "
+"of mouth to spread awareness. We have continued to add new challenges "
+"exploring new concepts over time, resulting in 108 challenges across 15 sub-"
+"modules."
+msgstr ""
+"我们于 2024 年 5 月 1 日向世界开放了 Linux Luminarium，依靠口碑传播知名度。我们持续添加探索新概念的新挑战，最终在 15 个子模块中产生了 108 个挑战。"
+
+#: src/impact-and-results.md:5
+msgid ""
+"The usage has gradually increased over time. Until this paper's data cutoff "
+"of July 1, 2025, a total of 15,394 have solved 697,553 challenges, with June "
+"2025 seeing 55,363 solves by 1,946 learners."
+msgstr ""
+"使用量随着时间的推移逐渐增加。直到本文的数据截止日期 2025 年 7 月 1 日，共有 15,394 人解决了 697,553 个挑战，2025 年 6 月有 1,946 名学习者解决了 55,363 个挑战。"
+
+#: src/impact-and-results.md:7
+msgid ""
+"To understand the impact of Linux Luminarium on learners, we carried out two "
+"surveys[^1] : one for students at our University, where we use the Linux "
+"Luminarium as a Linux primer for Computer Science majors (mostly in their "
+"Junior year) and another for learners from around the United States, beyond "
+"our university. Our surveys included both Likert scale and free response "
+"questions. All questions in both surveys were optional."
+msgstr ""
+"为了了解 Linux Luminarium 对学习者的影响，我们进行了两项调查[^1]：一项针对我们大学的学生，我们将 Linux Luminarium 用作计算机科学专业的 Linux 入门课程（主要是大三学生），另一项针对来自美国各地的学习者，超出我们大学的范围。我们的调查包括李克特量表和自由回答题。两项调查中的所有问题都是可选的。"
+
+#: src/impact-and-results.md:9
+msgid ""
+"In analyzing the survey data, we identified a number of takeaways that "
+"demonstrate the strengths, impact, and weaknesses of the Linux Luminarium, "
+"which we detail below."
+msgstr ""
+"在分析调查数据时，我们确定了一些要点，这些要点展示了 Linux Luminarium 的优势、影响和弱点，我们在下面详细说明。"
+
+#: src/impact-and-results.md:11
+msgid ""
+"We reviewed the surveys with our institutions IRB and received an Exempt "
+"determination for both."
+msgstr ""
+"我们与我们的机构 IRB 审查了调查，并收到了两项调查的豁免决定。"
+
+#: src/impact-and-results/learners-beyond-our-university.md:3
+msgid ""
+"We also sent out a survey to learners who were not students at our "
+"university and had engaged with the Linux Luminarium within the last two "
+"months (so that their experience would be fresh in their memory). Our IRB "
+"protocol limited us to respondents who resided in the United States and were "
+"not students at our University. Over 60% of global Linux Luminarium users "
+"reside outside of the United States, limiting our qualified respondents to "
+"47."
+msgstr ""
+"我们还向不是我们大学学生并在过去两个月内使用过 Linux Luminarium 的学习者发送了调查（以便他们的经验在他们的记忆中保持新鲜）。我们的 IRB 协议将我们限制为居住在美国且不是我们大学学生的受访者。超过 60% 的全球 Linux Luminarium 用户居住在美国以外，将我们的合格受访者限制为 47 人。"
+
+#: src/impact-and-results/learners-beyond-our-university.md:11
+msgid ""
+"In total, 47 learners responded to our survey. Of these, 1 was a high school "
+"student[^1], 14 were undergraduate students, 8 were graduate students, and 1 "
+"was in a vocational program, and 23 were professionals."
+msgstr ""
+"总共有 47 名学习者回应了我们的调查。其中，1 名是高中生[^1]，14 名是本科生，8 名是研究生，1 名在职业项目中，23 名是专业人士。"
+
+#: src/impact-and-results/learners-beyond-our-university.md:16
+msgid ""
+"Our survey included a number of Likert questions, which we show (along with "
+"aggregated responses) in Figure 1. Additionally, we asked them to "
+"(retroactively) rate their comfort level with certain Linux concepts before "
+"and after their participation in the Linux Luminarium. Finally, we asked "
+"free-response questions about their biggest hurdles in learning Linux prior "
+"to the Linux Luminarium and the biggest hurdle they faced in the Linux "
+"Luminarium. We synthesize the results below."
+msgstr ""
+"我们的调查包括一些李克特问题，我们在图 1 中显示了这些问题（以及汇总的回应）。此外，我们要求他们（追溯性地）评估他们在参与 Linux Luminarium 之前和之后对某些 Linux 概念的舒适度。最后，我们询问了关于他们在 Linux Luminarium 之前学习 Linux 的最大障碍以及他们在 Linux Luminarium 中面临的最大障碍的自由回答题。我们在下面综合了结果。"
+
+#: src/impact-and-results/learners-beyond-our-university.md:25
+msgid ""
+"**There is a value in structured learning resources.** In free-form "
+"responses, the most common observation (11 responses) of the biggest hurdle "
+"in attempts to learn Linux prior to the Linux Luminarium was the lack of "
+"structure in existing Linux Learning resources. None of these learners "
+"reported the same hurdle for the Linux Luminarium itself, reflecting the "
+"success of the structured approach we take to Linux education."
+msgstr ""
+"**结构化学习资源具有价值。**在自由形式的回应中，在 Linux Luminarium 之前尝试学习 Linux 的最大障碍最常见的观察（11 个回应）是现有 Linux 学习资源缺乏结构。这些学习者中没有人报告 Linux Luminarium 本身存在同样的障碍，这反映了我们在 Linux 教育中采用的结构化方法的成功。"
+
+#: src/impact-and-results/learners-beyond-our-university.md:32
+msgid ""
+"**A turnkey, interactive Linux environment enables learning.** About half of "
+"our learners reported being hampered in prior attempts at learning Linux by "
+"a lack of a readily-available Linux environment, with the other half "
+"disagreeing (Q1). 7 learners mentioned this as their top hurdle in free-"
+"response questions. In freeform responses, the two most common reasons for "
+"having been hampered by the lack of available interactive environments were "
+"an uncertainty about how to set up a system for learning and a fear of "
+"accidentally destroying it with an errant command once set up."
+msgstr ""
+"**开箱即用的交互式 Linux 环境能够促进学习。**大约一半的学习者报告说，由于缺乏现成的 Linux 环境，他们在之前尝试学习 Linux 时受到了阻碍，另一半不同意（Q1）。7 名学习者在自由回答题中将此作为他们的最大障碍。在自由形式的回应中，由于缺乏可用的交互式环境而受到阻碍的两个最常见原因是对如何设置学习系统的不确定性，以及担心一旦设置后可能因错误命令而意外破坏它。"
+
+#: src/impact-and-results/learners-beyond-our-university.md:39
+msgid ""
+"Despite half of the respondents disagreeing with Q1, Q2 shows overwhelming "
+"agreement that the Linux Luminarium's web interface helped learners start "
+"learning Linux."
+msgstr ""
+"尽管一半的受访者不同意 Q1，但 Q2 显示绝大多数人同意 Linux Luminarium 的 Web 界面帮助学习者开始学习 Linux。"
+
+#: src/impact-and-results/learners-beyond-our-university.md:47
+msgid ""
+"**Figure 1: Likert survey questions and their responses by learners beyond "
+"our University. A total of 47 students completed the survey. All questions "
+"were optional.**"
+msgstr ""
+"**图 1：校外学习者的李克特调查问题及其回应。共有 47 名学生完成了调查。所有问题都是可选的。**"
+
+#: src/impact-and-results/learners-beyond-our-university.md:53
+msgid ""
+"**The gamified, challenge-based curriculum is beneficial for both learning "
+"and motivation.** Learners reacted overwhelmingly positively both to the use "
+"of hands-on challenges in learning (Q3) and the use of Capture The Flag-"
+"style "flags" as additional motivation to solve these challenges (Q15). No "
+"respondents disagreed with either statement, and agreed that the Linux "
+"Luminarium was enjoyable (Q16) and inspiring for further learning (Q17). "
+"While this motivational effect has long been observed in CTFs \\[[7](../"
+"references.md#ref7), [11](../references.md#ref11), [14](../"
+"references.md#ref14), [16](../references.md#ref16), [18](../"
+"references.md#ref18), [28](../references.md#ref28)\\], we hope that "
+"reproducing this finding in even-earlier-stage education settings will be "
+"useful to future educators."
+msgstr ""
+"**游戏化、基于挑战的课程对学习和动机都有益。**学习者对在学习中使用实践挑战（Q3）以及使用夺旗式"旗帜"作为解决这些挑战的额外动机（Q15）都反应非常积极。没有受访者不同意任何一项陈述，并同意 Linux Luminarium 是有趣的（Q16）并激励进一步学习（Q17）。虽然这种动机效应在 CTF 中早已被观察到 \\[[7](../references.md#ref7), [11](../references.md#ref11), [14](../references.md#ref14), [16](../references.md#ref16), [18](../references.md#ref18), [28](../references.md#ref28)\\]，但我们希望，在更早期的教育环境中重现这一发现将对未来的教育工作者有用。"
+
+#: src/impact-and-results/learners-beyond-our-university.md:59
+msgid ""
+"5 free-form responses listed the lack of available challenge problems as the "
+"top hurdle in their pre-Linux Luminarium attempts to learn Linux."
+msgstr ""
+"5 个自由形式的回应将缺乏可用的挑战问题列为他们在 Linux Luminarium 之前尝试学习 Linux 的最大障碍。"
+
+#: src/impact-and-results/learners-beyond-our-university.md:62
+msgid ""
+"**Guidance is good, but not perfect.** Learners overwhelmingly reported that "
+"challenge descriptions equipped them to approach the challenges (Q4), but "
+"most still needed to search out additional (off-site) materials beyond these "
+"descriptions (Q7). Additionally, in free-form responses, 7 learners reported "
+"vague, confusing, rambling, or incomplete problem descriptions as their "
+"biggest hurdle in approaching the Linux Luminarium."
+msgstr ""
+"**指导很好，但不完美。**学习者绝大多数报告说，挑战描述使他们能够应对挑战（Q4），但大多数人仍然需要在这些描述之外搜索额外的（站外）材料（Q7）。此外，在自由形式的回应中，7 名学习者报告说，模糊、令人困惑、冗长或不完整的问题描述是他们接近 Linux Luminarium 的最大障碍。"
+
+#: src/impact-and-results/learners-beyond-our-university.md:69
+msgid ""
+"Beyond online documentation, modern learners also use additional interactive "
+"guidance via online communities (e.g., on learningdedicated Discord channels "
+"such as the one we created for Linux Luminarium) or Generative AI (e.g., "
+"ChatGPT). We asked several questions to measure the impact of these "
+"resources. Students reported similar positive impact (more of them agreeing "
+"than disagreeing) for both Discord (Q8) and AI (Q10), but disagreed with "
+"both the assertion that the Discord help was critical (Q9) and that "
+"Generative AI could replace the Linux Luminarium as a sole Linux learning "
+"resource (Q11)."
+msgstr ""
+"除了在线文档外，现代学习者还通过在线社区（例如，在我们为 Linux Luminarium 创建的学习专用 Discord 频道上）或生成式 AI（例如，ChatGPT）使用额外的交互式指导。我们问了几个问题来衡量这些资源的影响。学生对 Discord（Q8）和 AI（Q10）都报告了类似的积极影响（同意的人多于不同意的人），但不同意 Discord 帮助是关键的（Q9）以及生成式 AI 可以替代 Linux Luminarium 作为唯一的 Linux 学习资源（Q11）的断言。"
+
+#: src/impact-and-results/learners-beyond-our-university.md:76
+msgid ""
+"**Instrumented correction and guidance text helps learners learn.** The "
+"Linux Luminarium's shell session instrumentation was extremely helpful, with "
+"no respondents to Q5 (for learning) and Q6 (for avoiding errors) disagreeing "
+"and almost universal agreement. As Linux Luminarium is the only platform "
+"that provides this feature, this points to its usefulness as a first-stage "
+"Linux learning platform."
+msgstr ""
+"**工具化纠正和指导文本帮助学习者学习。**Linux Luminarium 的 shell 会话工具化非常有帮助，Q5（用于学习）和 Q6（用于避免错误）的受访者中没有人不同意，几乎所有人都同意。由于 Linux Luminarium 是唯一提供此功能的平台，这指出了它作为第一阶段 Linux 学习平台的有用性。"
+
+#: src/impact-and-results/learners-beyond-our-university.md:82
+msgid ""
+"**Destruction can be constructive.** While both Destructive (Q12) and "
+"Security (Q14) challenges improved understanding of Linux concepts, the "
+"Security challenges appeared to be more useful. Typically, the Security "
+"challenges involve the combination of more Linux concepts (e.g., data "
+"processing to brute force a password and the Linux user/group model) than "
+"Destructive challenges (e.g., `rm -rf /`), so this makes sense, though we "
+"were pleased to see that the latter remains useful as well."
+msgstr ""
+"**破坏可以是有建设性的。**虽然破坏性（Q12）和安全（Q14）挑战都改善了对 Linux 概念的理解，但安全挑战似乎更有用。通常，安全挑战涉及比破坏性挑战（例如，`rm -rf /`）更多的 Linux 概念组合（例如，数据处理以暴力破解密码和 Linux 用户/组模型），所以这是有道理的，尽管我们很高兴看到后者仍然有用。"
+
+#: src/impact-and-results/learners-beyond-our-university.md:89
+msgid ""
+"**The Linux Luminarium increases learner comfort with Linux.** We asked "
+"respondents to retroactively self-assess their comfort levels with different "
+"aspects of Linux as they were before starting and after completing the Linux "
+"Luminarium, on a scale from 0 (Very Little Comfort) to 4 (Very High "
+"Comfort). The results are presented in Figure 2. Participants spanned the "
+"whole range of assessments, with the median assessment in each category "
+"being Moderate familiarity (2). Participants reported median improvements "
+"between 0.7 (for the GUI, which learners only incidentally use to access the "
+"material) to 1.3 (for the Security Model, which we explicitly cover with the "
+"material)."
+msgstr ""
+"**Linux Luminarium 提高了学习者对 Linux 的舒适度。**我们要求受访者追溯性地自我评估他们在开始之前和完成 Linux Luminarium 之后对 Linux 不同方面的舒适度，评分从 0（非常不舒适）到 4（非常舒适）。结果如图 2 所示。参与者跨越了整个评估范围，每个类别的中位数评估为中等熟悉度（2）。参与者报告的中位数改进在 0.7（对于 GUI，学习者只是偶尔使用它来访问材料）到 1.3（对于安全模型，我们在材料中明确涵盖）之间。"
+
+#: src/impact-and-results/learners-beyond-our-university.md:99
+msgid ""
+"Threat to Validity: since both estimations are retrospective (e.g., learners "
+"estimate their pre-Linux Luminarium knowledge after completing the Linux "
+"Luminarium), learners might subconsciously underestimate their Before "
+"knowledge or inflate the delta between Before and After because of a biased "
+"perception of self-improvement."
+msgstr ""
+"有效性威胁：由于两个估计都是追溯性的（例如，学习者在完成 Linux Luminarium 后估计他们之前的 Linux Luminarium 知识），学习者可能会下意识地低估他们的"之前"知识，或者由于对自我改进的偏见认知而夸大"之前"和"之后"之间的差异。"
+
+#: src/impact-and-results/learners-beyond-our-university.md:107
+msgid ""
+"**Figure 2: Horizontal candlestick plot of self-assessed comfort levels with "
+"different areas/concepts of Linux among learners beyond our University on a "
+"scale from 0 (Very Little Comfort) to 4 (Very High Comfort). Both the Before "
+"(starting the Linux Luminarium) and After (completing the Linux Luminarium) "
+"self-assessments were performed retroactively. Participants reported median "
+"improvements between 0.7 (for the GUI, which students only incidentally use "
+"during their learning) to 1.3 (for the Security Model, which we explicitly "
+"cover).**"
+msgstr ""
+"**图 2：校外学习者对 Linux 不同领域/概念的自我评估舒适度的水平蜡烛图，评分从 0（非常不舒适）到 4（非常舒适）。"之前"（开始 Linux Luminarium）和"之后"（完成 Linux Luminarium）的自我评估都是追溯性进行的。参与者报告的中位数改进在 0.7（对于 GUI，学生仅在学习期间偶尔使用）到 1.3（对于安全模型，我们明确涵盖）之间。**"
+
+#: src/impact-and-results/learners-beyond-our-university.md:113
+msgid ""
+"Ideally, we would survey the users before they access the Linux Luminarium, "
+"but this is not something that our platform currently supports. Regardless, "
+"we present this part of our data for completeness."
+msgstr ""
+"理想情况下，我们会在用户访问 Linux Luminarium 之前对他们进行调查，但这不是我们平台目前支持的功能。无论如何，我们为了完整性而呈现这部分数据。"
+
+#: src/impact-and-results/learners-beyond-our-university.md:117
+msgid "Our study clarified that participants must be 18 years or older."
+msgstr "我们的研究明确参与者必须年满 18 岁。"
+
+#: src/impact-and-results/learners-at-our-university.md:3
+msgid ""
+"The Linux Luminarium is a required module during the Introduction to "
+"Cybersecurity course at our large R1 public University. At the conclusion of "
+"every module, including the Linux Luminarium, we invited students to "
+"complete a survey about their experience with the material. Because these "
+"surveys exist after each module, they are not Linux-specific, and so are "
+"structured differently than the survey discussed earlier. Of the 658 "
+"students in the class, 405 filled out the survey and consented to be "
+"included in this study[^1]."
+msgstr ""
+"Linux Luminarium 是我们大型 R1 公立大学网络安全导论课程中的必修模块。在每个模块（包括 Linux Luminarium）结束时，我们邀请学生完成一项关于他们使用该材料的体验的调查。由于这些调查存在于每个模块之后，它们不是 Linux 特定的，因此与之前讨论的调查结构不同。在班级的 658 名学生中，405 名填写了调查并同意被纳入本研究[^1]。"
+
+#: src/impact-and-results/learners-at-our-university.md:5
+msgid ""
+"Students reported working an average of 11.23 hours to complete the module. "
+"Additionally, students overwhelmingly agreed that the Linux Luminarium was "
+"Educational (388 agreeing vs 27 disagreeing), Enjoyable (388 vs 49), and "
+"Engaging (360 vs 37), and that the challenge descriptions helped students "
+"learn the material (322 vs 24)."
+msgstr ""
+"学生报告平均花费 11.23 小时完成该模块。此外，学生绝大多数同意 Linux Luminarium 具有教育性（388 人同意 vs 27 人不同意）、有趣（388 vs 49）和引人入胜（360 vs 37），并且挑战描述帮助学生学习了材料（322 vs 24）。"
+
+#: src/impact-and-results/learners-at-our-university.md:7
+msgid ""
+"In free-form responses, students listed as positives, from most frequently "
+"listed to least frequently listed, the following:"
+msgstr ""
+"在自由形式的回应中，学生列出的积极方面，从最常列出的到最少列出的，如下："
+
+#: src/impact-and-results/learners-at-our-university.md:8
+msgid "The CTF-style challenge gamification."
+msgstr "CTF 风格的挑战游戏化。"
+
+#: src/impact-and-results/learners-at-our-university.md:9
+msgid ""
+"Gradual, step-by-step challenges that keep learners engaged and reinforce "
+"concepts."
+msgstr ""
+"渐进的、循序渐进的挑战，让学习者保持参与并强化概念。"
+
+#: src/impact-and-results/learners-at-our-university.md:10
+msgid "Increased comfort with Linux over the course of the module."
+msgstr "在模块过程中对 Linux 的舒适度增加。"
+
+#: src/impact-and-results/learners-at-our-university.md:11
+msgid ""
+"Available help from Discord, Generative AI, and shell instrumentation to "
+"fill the gaps left by the challenge descriptions."
+msgstr ""
+"来自 Discord、生成式 AI 和 shell 工具化的可用帮助，以填补挑战描述留下的空白。"
+
+#: src/impact-and-results/learners-at-our-university.md:12
+msgid "The quality of the challenge descriptions themselves."
+msgstr "挑战描述本身的质量。"
+
+#: src/impact-and-results/learners-at-our-university.md:13
+msgid "The ease of web accessibility of the Linux Luminarium environment."
+msgstr "Linux Luminarium 环境的 Web 可访问性便利。"
+
+#: src/impact-and-results/learners-at-our-university.md:15
+msgid ""
+"The negatives, from most frequently listed to least frequently listed "
+"(omitting course-specific feedback such as Canvas organization, etc.), were:"
+msgstr ""
+"负面方面，从最常列出的到最少列出的（省略课程特定的反馈，如 Canvas 组织等），是："
+
+#: src/impact-and-results/learners-at-our-university.md:16
+msgid "Vague, confusing, rambling, or incomplete challenge descriptions."
+msgstr "模糊、令人困惑、冗长或不完整的挑战描述。"
+
+#: src/impact-and-results/learners-at-our-university.md:17
+msgid ""
+"Residual hard-to-bridge conceptual gaps between some of the challenges, with "
+"data piping (between processes), file globbing, symbolic links, and the "
+"security implications of the PATH environment variable specifically "
+"mentioned."
+msgstr ""
+"一些挑战之间残留的难以弥合的概念差距，特别提到了数据管道（进程之间）、文件通配、符号链接以及 PATH 环境变量的安全含义。"
+
+#: src/impact-and-results/learners-at-our-university.md:18
+msgid ""
+"Overly-repetitive challenge ramps (e.g., too much practice for concepts such "
+"as chmod)."
+msgstr ""
+"过于重复的挑战斜坡（例如，对 chmod 等概念练习过多）。"
+
+#: src/impact-and-results/learners-at-our-university.md:20
+msgid ""
+"Anecdotally, we found that the introduction of the Linux Luminarium during "
+"the 2024-2025 academic year drastically improved student understanding of "
+"Linux throughout the rest of the course. Whereas prior iterations of this "
+"course would receive introductory questions from students (e.g., about the "
+"Linux filesystem layout, the Linux process model, etc.), we observed almost "
+"no such questions in either semester that included the Linux Luminarium."
+msgstr ""
+"根据轶事，我们发现 2024-2025 学年引入 Linux Luminarium 极大地改善了学生在课程其余部分对 Linux 的理解。虽然之前版本的课程会收到学生的入门问题（例如，关于 Linux 文件系统布局、Linux 进程模型等），但在包含 Linux Luminarium 的两个学期中，我们几乎没有观察到此类问题。"
+
+#: src/impact-and-results/learners-at-our-university.md:22
+msgid ""
+"Consent or lack thereof had no impact on grades or other student metrics in "
+"the class."
+msgstr ""
+"同意或缺乏同意对班级的成绩或其他学生指标没有影响。"
+
+#: src/impact-and-results/community-involvement.md:3
+msgid ""
+"Because the Linux Luminarium is openly available and open source, and the "
+"material is intentionally very introductory, passionate learners are able to "
+"contribute to the project. Over the roughly 14 months of its availability, "
+"we have received contributions from 15 distinct individuals from the global "
+"community. These contributions ranged from spelling and grammar fixes to "
+"entire sub-modules of content. For example, the Linux Luminarium's file "
+"permissions module was initially contributed by a community member."
+msgstr ""
+"因为 Linux Luminarium 是公开可用和开源的，并且材料有意设计得非常入门，热情的学习者能够为项目做出贡献。在其可用的大约 14 个月中，我们收到了来自全球社区的 15 个不同个人的贡献。这些贡献范围从拼写和语法修复到整个内容子模块。例如，Linux Luminarium 的文件权限模块最初是由社区成员贡献的。"
+
+#: src/conclusion.md:3
+msgid ""
+"The Linux Luminarium is a novel, turnkey, challenge-based Linux education "
+"platform that supercharges learners to become proficient Linux users. Over "
+"the year of its open availability, the Linux Luminarium has taught Linux to "
+"15,394 learners, shepherding them through solving 697,553 challenges. By "
+"surveying learners around the country as well as at our University, we show "
+"that the Linux Luminarium, and the techniques that underpin it, successfully "
+"drive student learning. The Linux Luminarium is both openly available on the "
+"internet for turnkey learning and open source to enable reproducibility, "
+"learning, and ongoing research."
+msgstr ""
+"Linux Luminarium 是一个新颖的、开箱即用的、基于挑战的 Linux 教育平台，它能够增强学习者的能力，使他们成为熟练的 Linux 用户。在其开放可用的一年中，Linux Luminarium 已向 15,394 名学习者教授 Linux，引导他们解决了 697,553 个挑战。通过调查全国各地的学习者以及我们大学的学习者，我们表明 Linux Luminarium 及其支撑技术成功地推动了学生学习。Linux Luminarium 既在互联网上公开可用以进行开箱即用的学习，也是开源的，以实现可重现性、学习和持续研究。"
+
+#: src/conclusion.md:5
+msgid ""
+"**Acknowledgements.** This material is based upon work supported by the "
+"Defense Advanced Research Projects Agency (DARPA) under Contract No. "
+"HR001124C0362 and by the Department of Navy under award N00014-23-1-2563 "
+"issued by the Office of Naval Research. Any opinions, findings, and "
+"conclusions or recommendations expressed in this material are those of the "
+"author(s) and do not necessarily reflect the views of the Defense Advanced "
+"Research Projects Agency (DARPA) or the Office of Naval Research."
+msgstr ""
+"**致谢。**本材料基于国防高级研究计划局（DARPA）在合同号 HR001124C0362 下以及海军部在海军研究办公室颁发的奖项 N00014-23-1-2563 下支持的工作。本材料中表达的任何意见、发现和结论或建议均为作者的观点，不一定反映国防高级研究计划局（DARPA）或海军研究办公室的观点。"
+
+#: src/references.md:3
+msgid ""
+"<a id=\"ref1\"></a> \\[1\\] Cisco Networking Academy. \\[n.d.\\]. [https://"
+"www.netacad.com/courses/linux-unhatched?courseLang=en-US](https://"
+"www.netacad.com/courses/linux-unhatched?courseLang=en-US)."
+msgstr ""
+"<a id=\"ref1\"></a> \\[1\\] Cisco Networking Academy. \\[n.d.\\]. [https://"
+"www.netacad.com/courses/linux-unhatched?courseLang=en-US](https://"
+"www.netacad.com/courses/linux-unhatched?courseLang=en-US)."
+
+#: src/references.md:6
+msgid ""
+"<a id=\"ref2\"></a> \\[2\\] Jacob Bailey and Craig Zilles. 2019. uassign: "
+"Scalable interactive activities for teaching the unix terminal. In "
+"Proceedings of the 50th ACM technical symposium on computer science "
+"education. 70–76."
+msgstr ""
+"<a id=\"ref2\"></a> \\[2\\] Jacob Bailey and Craig Zilles. 2019. uassign: "
+"Scalable interactive activities for teaching the unix terminal. In "
+"Proceedings of the 50th ACM technical symposium on computer science "
+"education. 70–76."
+
+#: src/references.md:9
+msgid ""
+"<a id=\"ref3\"></a> \\[3\\] Fabrice Bellard. \\[n.d.\\]. [https://"
+"bellard.org/jslinux/](https://bellard.org/jslinux/)."
+msgstr ""
+"<a id=\"ref3\"></a> \\[3\\] Fabrice Bellard. \\[n.d.\\]. [https://"
+"bellard.org/jslinux/](https://bellard.org/jslinux/)."
+
+#: src/references.md:12
+msgid ""
+"<a id=\"ref4\"></a> \\[4\\] Vincent Berry, Arnaud Castelltort, Chrysta "
+"Pelissier, Marion Rousseau, and Chouki Tibermacine. 2022. Shell on you: "
+"Learning by doing unix command line. In Proceedings of the 27th ACM "
+"Conference on Innovation and Technology in Computer Science Education Vol. "
+"1. 379–385."
+msgstr ""
+"<a id=\"ref4\"></a> \\[4\\] Vincent Berry, Arnaud Castelltort, Chrysta "
+"Pelissier, Marion Rousseau, and Chouki Tibermacine. 2022. Shell on you: "
+"Learning by doing unix command line. In Proceedings of the 27th ACM "
+"Conference on Innovation and Technology in Computer Science Education Vol. "
+"1. 379–385."
+
+#: src/references.md:15
+msgid ""
+"<a id=\"ref5\"></a> \\[5\\] Razvan Beuran, Dat Tang, Cuong Pham, Ken-ichi "
+"Chinen, Yasuo Tan, and Yoichi Shinoda. 2018. Integrated framework for hands-"
+"on cybersecurity training: CyTrONE. Computers & Security 78 (2018), 43–59."
+msgstr ""
+"<a id=\"ref5\"></a> \\[5\\] Razvan Beuran, Dat Tang, Cuong Pham, Ken-ichi "
+"Chinen, Yasuo Tan, and Yoichi Shinoda. 2018. Integrated framework for hands-"
+"on cybersecurity training: CyTrONE. Computers & Security 78 (2018), 43–59."
+
+#: src/references.md:18
+msgid ""
+"<a id=\"ref6\"></a> \\[6\\] Hack The Box. 2023. [https://www.hackthebox.com/]"
+"(https://www.hackthebox.com/)."
+msgstr ""
+"<a id=\"ref6\"></a> \\[6\\] Hack The Box. 2023. [https://www.hackthebox.com/]"
+"(https://www.hackthebox.com/)."
+
+#: src/references.md:21
+msgid ""
+"<a id=\"ref7\"></a> \\[7\\] Kevin Chung and Julian Cohen. 2014. Learning "
+"Obstacles in the Capture The Flag Model. In 2014 USENIX Summit on Gaming, "
+"Games, and Gamification in Security Education (3GSE14)."
+msgstr ""
+"<a id=\"ref7\"></a> \\[7\\] Kevin Chung and Julian Cohen. 2014. Learning "
+"Obstacles in the Capture The Flag Model. In 2014 USENIX Summit on Gaming, "
+"Games, and Gamification in Security Education (3GSE14)."
+
+#: src/references.md:24
+msgid ""
+"<a id=\"ref8\"></a> \\[8\\] Paul Cobbaut et al. 2007. Linux Fundamentals. "
+"Dosegljivo: [http://linuxtraining.be/linuxfun.pdf](http://linuxtraining.be/"
+"linuxfun.pdf). \\[Dostopano: 10.2.2019\\] (2007)."
+msgstr ""
+"<a id=\"ref8\"></a> \\[8\\] Paul Cobbaut et al. 2007. Linux Fundamentals. "
+"Dosegljivo: [http://linuxtraining.be/linuxfun.pdf](http://linuxtraining.be/"
+"linuxfun.pdf). \\[Dostopano: 10.2.2019\\] (2007)."
+
+#: src/references.md:27
+msgid ""
+"<a id=\"ref9\"></a> \\[9\\] Code Academy. \\[n.d.\\]. [https://"
+"www.codecademy.com/article/installing-linux-using-a-vm](https://"
+"www.codecademy.com/article/installing-linux-using-a-vm)."
+msgstr ""
+"<a id=\"ref9\"></a> \\[9\\] Code Academy. \\[n.d.\\]. [https://"
+"www.codecademy.com/article/installing-linux-using-a-vm](https://"
+"www.codecademy.com/article/installing-linux-using-a-vm)."
+
+#: src/references.md:30
+msgid ""
+"<a id=\"ref10\"></a> \\[10\\] Copy. \\[n.d.\\]. [https://copy.sh/v86/]"
+"(https://copy.sh/v86/)."
+msgstr ""
+"<a id=\"ref10\"></a> \\[10\\] Copy. \\[n.d.\\]. [https://copy.sh/v86/]"
+"(https://copy.sh/v86/)."
+
+#: src/references.md:33
+msgid ""
+"<a id=\"ref11\"></a> \\[11\\] Adrian Dabrowski, Markus Kammerstetter, Eduard "
+"Thamm, Edgar Weippl, and Wolfgang Kastner. 2015. Leveraging Competitive "
+"Gamification for Sustainable Fun and Profit in Security Education. In 2015 "
+"USENIX Summit on Gaming, Games, and Gamification in Security Education "
+"(3GSE15)."
+msgstr ""
+"<a id=\"ref11\"></a> \\[11\\] Adrian Dabrowski, Markus Kammerstetter, Eduard "
+"Thamm, Edgar Weippl, and Wolfgang Kastner. 2015. Leveraging Competitive "
+"Gamification for Sustainable Fun and Profit in Security Education. In 2015 "
+"USENIX Summit on Gaming, Games, and Gamification in Security Education "
+"(3GSE15)."
+
+#: src/references.md:36
+msgid ""
+"<a id=\"ref12\"></a> \\[12\\] Edward Dillon, Krystal L Williams, Ashley "
+"Simone Pryor, Theodore Wimberly Jr, Mariah McMichael, Abisola Mercy "
+"Arowolaju, Donald Bernard Davis, and Toluwanimi Ayodele. 2024. Exploring the "
+"Impact of Exposing Command Line Programming to Early CS Majors (An HBCU Case "
+"Study). In 2024 ASEE Annual Conference & Exposition."
+msgstr ""
+"<a id=\"ref12\"></a> \\[12\\] Edward Dillon, Krystal L Williams, Ashley "
+"Simone Pryor, Theodore Wimberly Jr, Mariah McMichael, Abisola Mercy "
+"Arowolaju, Donald Bernard Davis, and Toluwanimi Ayodele. 2024. Exploring the "
+"Impact of Exposing Command Line Programming to Early CS Majors (An HBCU Case "
+"Study). In 2024 ASEE Annual Conference & Exposition."
+
+#: src/references.md:39
+msgid ""
+"<a id=\"ref13\"></a> \\[13\\] Machtelt Garrels. 2002. [https://tldp.org/LDP/"
+"intro-linux/html](https://tldp.org/LDP/intro-linux/html) (2002)."
+msgstr ""
+"<a id=\"ref13\"></a> \\[13\\] Machtelt Garrels. 2002. [https://tldp.org/LDP/"
+"intro-linux/html](https://tldp.org/LDP/intro-linux/html) (2002)."
+
+#: src/references.md:42
+msgid ""
+"<a id=\"ref14\"></a> \\[14\\] Kees Leune and Salvatore J Petrilli Jr. 2017. "
+"Using Capture-the-Flag to Enhance the Effectiveness of Cybersecurity "
+"Education. In Proceedings of the 18th Annual Conference on Information "
+"Technology Education. 47–52."
+msgstr ""
+"<a id=\"ref14\"></a> \\[14\\] Kees Leune and Salvatore J Petrilli Jr. 2017. "
+"Using Capture-the-Flag to Enhance the Effectiveness of Cybersecurity "
+"Education. In Proceedings of the 18th Annual Conference on Information "
+"Technology Education. 47–52."
+
+#: src/references.md:45
+msgid ""
+"<a id=\"ref15\"></a> \\[15\\] Richard Wing Cheung Lui, Aiden Wen Yi Zhang, "
+"and Philip Tin Yun Lee. 2024. A secure and scalable virtual lab platform for "
+"computing education. International Journal of Information and Education "
+"Technology 14, 1 (2024), 59–64."
+msgstr ""
+"<a id=\"ref15\"></a> \\[15\\] Richard Wing Cheung Lui, Aiden Wen Yi Zhang, "
+"and Philip Tin Yun Lee. 2024. A secure and scalable virtual lab platform for "
+"computing education. International Journal of Information and Education "
+"Technology 14, 1 (2024), 59–64."
+
+#: src/references.md:48
+msgid ""
+"<a id=\"ref16\"></a> \\[16\\] Jelena Mirkovic, Aimee Tabor, Simon Woo, and "
+"Portia Pusey. 2015. Engaging Novices in Cybersecurity Competitions: A Vision "
+"and Lessons Learned at ACM Tapia 2015. In 2015 USENIX Summit on Gaming, "
+"Games, and Gamification in Security Education (3GSE15)."
+msgstr ""
+"<a id=\"ref16\"></a> \\[16\\] Jelena Mirkovic, Aimee Tabor, Simon Woo, and "
+"Portia Pusey. 2015. Engaging Novices in Cybersecurity Competitions: A Vision "
+"and Lessons Learned at ACM Tapia 2015. In 2015 USENIX Summit on Gaming, "
+"Games, and Gamification in Security Education (3GSE15)."
+
+#: src/references.md:51
+msgid ""
+"<a id=\"ref17\"></a> \\[17\\] Connor Nelson and Yan Shoshitaishvili. 2024. "
+"DOJO: Applied Cybersecurity Education In The Browser. In Proceedings of the "
+"55th ACM Technical Symposium on Computer Science Education (SIGCSE)."
+msgstr ""
+"<a id=\"ref17\"></a> \\[17\\] Connor Nelson and Yan Shoshitaishvili. 2024. "
+"DOJO: Applied Cybersecurity Education In The Browser. In Proceedings of the "
+"55th ACM Technical Symposium on Computer Science Education (SIGCSE)."
+
+#: src/references.md:54
+msgid ""
+"<a id=\"ref18\"></a> \\[18\\] Connor Nelson and Yan Shoshitaishvili. 2024. "
+"PWN The Learning Curve: Education-First CTF Challenges. In Proceedings of "
+"the 55th ACM Technical Symposium on Computer Science Education (SIGCSE)."
+msgstr ""
+"<a id=\"ref18\"></a> \\[18\\] Connor Nelson and Yan Shoshitaishvili. 2024. "
+"PWN The Learning Curve: Education-First CTF Challenges. In Proceedings of "
+"the 55th ACM Technical Symposium on Computer Science Education (SIGCSE)."
+
+#: src/references.md:57
+msgid ""
+"<a id=\"ref19\"></a> \\[19\\] Over The Wire. \\[n.d.\\]. [https://"
+"overthewire.org/wargames/bandit/](https://overthewire.org/wargames/bandit/)."
+msgstr ""
+"<a id=\"ref19\"></a> \\[19\\] Over The Wire. \\[n.d.\\]. [https://"
+"overthewire.org/wargames/bandit/](https://overthewire.org/wargames/bandit/)."
+
+#: src/references.md:60
+msgid ""
+"<a id=\"ref20\"></a> \\[20\\] Bobby Powers, John Vilk, and Emery D Berger. "
+"2017. Browsix: Bridging the gap between unix and the browser. ACM SIGPLAN "
+"Notices 52, 4 (2017), 253–266."
+msgstr ""
+"<a id=\"ref20\"></a> \\[20\\] Bobby Powers, John Vilk, and Emery D Berger. "
+"2017. Browsix: Bridging the gap between unix and the browser. ACM SIGPLAN "
+"Notices 52, 4 (2017), 253–266."
+
+#: src/references.md:63
+msgid ""
+"<a id=\"ref21\"></a> \\[21\\] The Linux Journey Project. \\[n.d.\\]. "
+"[https://linuxjourney.com/](https://linuxjourney.com/)."
+msgstr ""
+"<a id=\"ref21\"></a> \\[21\\] The Linux Journey Project. \\[n.d.\\]. "
+"[https://linuxjourney.com/](https://linuxjourney.com/)."
+
+#: src/references.md:66
+msgid ""
+"<a id=\"ref22\"></a> \\[22\\] Gordon Russel. \\[n.d.\\]. [https://"
+"linuxzoo.net/](https://linuxzoo.net/)."
+msgstr ""
+"<a id=\"ref22\"></a> \\[22\\] Gordon Russel. \\[n.d.\\]. [https://"
+"linuxzoo.net/](https://linuxzoo.net/)."
+
+#: src/references.md:69
+msgid ""
+"<a id=\"ref23\"></a> \\[23\\] Rémi Sharrock, Lawrence Angrave, and Ella "
+"Hamonic. 2018. WebLinux: a scalable in-browser and client-side Linux and "
+"IDE. In Proceedings of the Fifth Annual ACM Conference on Learning at Scale. "
+"1–2."
+msgstr ""
+"<a id=\"ref23\"></a> \\[23\\] Rémi Sharrock, Lawrence Angrave, and Ella "
+"Hamonic. 2018. WebLinux: a scalable in-browser and client-side Linux and "
+"IDE. In Proceedings of the Fifth Annual ACM Conference on Learning at Scale. "
+"1–2."
+
+#: src/references.md:72
+msgid ""
+"<a id=\"ref24\"></a> \\[24\\] Marek Šuppa, Ondrej Jariabka, Adrián Matejov, "
+"and Marek Nagy. 2021. Termadventure: Interactively teaching unix command "
+"line, text adventure style. In Proceedings of the 26th ACM Conference on "
+"Innovation and Technology in Computer Science Education V. 1. 108–114."
+msgstr ""
+"<a id=\"ref24\"></a> \\[24\\] Marek Šuppa, Ondrej Jariabka, Adrián Matejov, "
+"and Marek Nagy. 2021. Termadventure: Interactively teaching unix command "
+"line, text adventure style. In Proceedings of the 26th ACM Conference on "
+"Innovation and Technology in Computer Science Education V. 1. 108–114."
+
+#: src/references.md:75
+msgid ""
+"<a id=\"ref25\"></a> \\[25\\] Valdemar Švábenský, Jan Vykopal, Daniel "
+"Tovarňák, and Pavel Čeleda. 2021. Toolset for collecting shell commands and "
+"its application in hands-on cybersecurity training. In 2021 IEEE Frontiers "
+"in Education Conference (FIE). IEEE, 1–9."
+msgstr ""
+"<a id=\"ref25\"></a> \\[25\\] Valdemar Švábenský, Jan Vykopal, Daniel "
+"Tovarňák, and Pavel Čeleda. 2021. Toolset for collecting shell commands and "
+"its application in hands-on cybersecurity training. In 2021 IEEE Frontiers "
+"in Education Conference (FIE). IEEE, 1–9."
+
+#: src/references.md:78
+msgid ""
+"<a id=\"ref26\"></a> \\[26\\] TryHackMe. 2023. [https://tryhackme.com/]"
+"(https://tryhackme.com/)."
+msgstr ""
+"<a id=\"ref26\"></a> \\[26\\] TryHackMe. 2023. [https://tryhackme.com/]"
+"(https://tryhackme.com/)."
+
+#: src/references.md:81
+msgid ""
+"<a id=\"ref27\"></a> \\[27\\] Jan Vykopal, Radek Ošlejšek, Pavel Čeleda, "
+"Martin Vizvary, and Daniel Tovarňák. 2017. KYPO Cyber Range: Design and Use "
+"Cases. In Proceedings of the 12th International Conference on Software "
+"Technologies - Volume 1: ICSOFT. SciTePress, 310–321."
+msgstr ""
+"<a id=\"ref27\"></a> \\[27\\] Jan Vykopal, Radek Ošlejšek, Pavel Čeleda, "
+"Martin Vizvary, and Daniel Tovarňák. 2017. KYPO Cyber Range: Design and Use "
+"Cases. In Proceedings of the 12th International Conference on Software "
+"Technologies - Volume 1: ICSOFT. SciTePress, 310–321."
+
+#: src/references.md:84
+msgid ""
+"<a id=\"ref28\"></a> \\[28\\] Jan Vykopal, Valdemar Švábenský, and Ee-Chien "
+"Chang. 2020. Benefits and Pitfalls of Using Capture the Flag Games in "
+"University Courses. In Proceedings of the 51st ACM Technical Symposium on "
+"Computer Science Education. 752–758."
+msgstr ""
+"<a id=\"ref28\"></a> \\[28\\] Jan Vykopal, Valdemar Švábenský, and Ee-Chien "
+"Chang. 2020. Benefits and Pitfalls of Using Capture the Flag Games in "
+"University Courses. In Proceedings of the 51st ACM Technical Symposium on "
+"Computer Science Education. 752–758."
+
+#: src/references.md:87
+msgid ""
+"<a id=\"ref29\"></a> \\[29\\] Webminal. \\[n.d.\\]. [https://"
+"www.webminal.org/about/](https://www.webminal.org/about/)."
+msgstr ""
+"<a id=\"ref29\"></a> \\[29\\] Webminal. \\[n.d.\\]. [https://"
+"www.webminal.org/about/](https://www.webminal.org/about/)."

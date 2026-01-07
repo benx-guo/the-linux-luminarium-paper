@@ -1,7 +1,3 @@
-# Sample workflow for building and deploying a mdBook site to GitHub Pages
-#
-# To get started with mdBook see: https://rust-lang.github.io/mdBook/index.html
-#
 name: Deploy mdBook site to Pages
 
 on:
@@ -28,20 +24,26 @@ jobs:
   # Build job
   build:
     runs-on: ubuntu-latest
-    env:
-      MDBOOK_VERSION: 0.4.36
     steps:
       - uses: actions/checkout@v4
-      - name: Install mdBook
+      - name: Set up Rust toolchain
+        uses: actions-rust-lang/setup-rust-toolchain@v1
+      - name: Install mdBook and i18n helpers
         run: |
-          curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf -y | sh
-          rustup update
-          cargo install --version ${MDBOOK_VERSION} mdbook
+          cargo install --locked --version 0.5.2 mdbook
+          cargo install --locked --version 0.4.0 mdbook-i18n-helpers
+          echo "$HOME/.cargo/bin" >> $GITHUB_PATH
+      - name: Verify mdBook i18n plugins
+        run: |
+          echo "PATH=$PATH"
+          ls -la "$HOME/.cargo/bin" | sed -n '1,120p'
+          mdbook --version
+          command -v mdbook-gettext
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
       - name: Build with mdBook
-        run: mdbook build
+        run: make build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

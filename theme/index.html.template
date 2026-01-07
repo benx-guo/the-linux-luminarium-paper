@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>The Linux Luminarium</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 默认跳转到中文版根目录 -->
+    <meta http-equiv="refresh" content="0; url=zh/">
+    <script>
+        (function () {
+            // 作为 meta refresh 的补充，在部分浏览器中更可靠
+            var target = 'zh/';
+            var query = window.location.search || '';
+            var hash = window.location.hash || '';
+            try {
+                window.location.replace(target + query + hash);
+            } catch (e) {
+                window.location.href = target + query + hash;
+            }
+        })();
+    </script>
+</head>
+<body>
+    <noscript>
+        <p>正在跳转到中文版… 如果没有自动跳转，请点击
+            <a href="zh/">这里进入中文首页</a>。
+        </p>
+    </noscript>
+</body>
+</html>
+
