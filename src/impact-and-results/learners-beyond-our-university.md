@@ -37,7 +37,7 @@ an uncertainty about how to set up a system for learning and a fear
 of accidentally destroying it with an errant command once set up.
 
 Despite half of the respondents disagreeing with Q1, Q2 shows
-overwhelming agreement that the Linux Luminarium’s web interface helped learners start learning Linux.
+overwhelming agreement that the Linux Luminarium's web interface helped learners start learning Linux.
 <figure>
 
 <img src="../resources/figure-1.png" alt="Figure 1">
@@ -52,7 +52,7 @@ overwhelming agreement that the Linux Luminarium’s web interface helped learne
 
 **The gamified, challenge-based curriculum is beneficial for both learning and motivation.** Learners reacted overwhelmingly
 positively both to the use of hands-on challenges in learning (Q3)
-and the use of Capture The Flag-style “flags” as additional motivation to solve these challenges (Q15). No respondents disagreed with
+and the use of Capture The Flag-style "flags" as additional motivation to solve these challenges (Q15). No respondents disagreed with
 either statement, and agreed that the Linux Luminarium was enjoyable (Q16) and inspiring for further learning (Q17). While this motivational effect has long been observed in CTFs [[7](../references.md#ref7), [11](../references.md#ref11), [14](../references.md#ref14), [16](../references.md#ref16), [18](../references.md#ref18), [28](../references.md#ref28)],
 we hope that reproducing this finding in even-earlier-stage education settings will be useful to future educators.
 
@@ -73,7 +73,7 @@ both the assertion that the Discord help was critical (Q9) and that
 Generative AI could replace the Linux Luminarium as a sole Linux
 learning resource (Q11).
 
-**Instrumented correction and guidance text helps learners learn.** The Linux Luminarium’s shell session instrumentation was
+**Instrumented correction and guidance text helps learners learn.** The Linux Luminarium's shell session instrumentation was
 extremely helpful, with no respondents to Q5 (for learning) and Q6
 (for avoiding errors) disagreeing and almost universal agreement.
 As Linux Luminarium is the only platform that provides this feature,

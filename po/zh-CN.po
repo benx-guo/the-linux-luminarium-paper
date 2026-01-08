@@ -224,7 +224,7 @@ msgid ""
 "from diverse backgrounds, including those who cannot regularly access "
 "computers with development or virtualization capabilities."
 msgstr ""
-"**最低硬件要求。**我们希望让来自不同背景的人都能使用它，包括那些无法定期访问具有开发或虚拟化功能的计算机的人。"
+"**最低硬件要求。** 我们希望让来自不同背景的人都能使用它，包括那些无法定期访问具有开发或虚拟化功能的计算机的人。"
 
 #: src/design.md:7
 msgid ""
@@ -234,7 +234,7 @@ msgid ""
 "already understand file systems, processes, source code, executable files, "
 "and almost all other technical concepts."
 msgstr ""
-"**最少前置知识。**理想情况下，学习者只需要最少的技术背景即可使用 Linux Luminarium（例如，只需要知道如何使用 Web 浏览器）。我们刻意避免假设用户已经理解文件系统、进程、源代码、可执行文件以及几乎所有其他技术概念。"
+"**最少前置知识。** 理想情况下，学习者只需要最少的技术背景即可使用 Linux Luminarium（例如，只需要知道如何使用 Web 浏览器）。我们刻意避免假设用户已经理解文件系统、进程、源代码、可执行文件以及几乎所有其他技术概念。"
 
 #: src/design.md:9
 msgid ""
@@ -243,7 +243,7 @@ msgid ""
 "into a series of small steps that progressively accumulate to ultimately "
 "form a solid and systematic understanding."
 msgstr ""
-"**最小概念跨度。**考虑到学习者不熟悉相关概念，我们努力将 Linux 学习过程分解为一系列小步骤，逐步积累，最终形成扎实而系统的理解。"
+"**最小概念跨度。** 考虑到学习者不熟悉相关概念，我们努力将 Linux 学习过程分解为一系列小步骤，逐步积累，最终形成扎实而系统的理解。"
 
 #: src/design.md:11
 msgid ""
@@ -253,14 +253,14 @@ msgid ""
 "minimizing errors that deviate from the main learning path and cause "
 "learning blockages."
 msgstr ""
-"**防护措施。**作为经验丰富的教育工作者，我们观察到学习者在学习过程中可能会以多种方式偏离正轨。因此，我们努力创建一个学习环境，允许学习者自由探索，同时最大限度地减少偏离主要学习路径并导致学习障碍的错误。"
+"**防护措施。** 作为经验丰富的教育工作者，我们观察到学习者在学习过程中可能会以多种方式偏离正轨。因此，我们努力创建一个学习环境，允许学习者自由探索，同时最大限度地减少偏离主要学习路径并导致学习障碍的错误。"
 
 #: src/design.md:13
 msgid ""
 "**Engagement.** Our goal is to maintain learner motivation through regular "
 "positive feedback reinforcement and community participation."
 msgstr ""
-"**参与度。**我们的目标是通过定期的积极反馈强化和社区参与来维持学习者的动机。"
+"**参与度。** 我们的目标是通过定期的积极反馈强化和社区参与来维持学习者的动机。"
 
 #: src/design.md:15
 msgid ""
@@ -301,7 +301,7 @@ msgid ""
 "that learners must find (e.g., to learn the find command), data to filter "
 "(to practice grep), and so on."
 msgstr ""
-"**挑战随机化。**DOJO 提供了一个接口，用于在学习者启动挑战时运行设置代码。我们在 Linux Luminarium 的许多地方使用此功能，例如随机化学习者必须查找的文件位置（例如，学习 find 命令）、要过滤的数据（练习 grep）等。"
+"**挑战随机化。** DOJO 提供了一个接口，用于在学习者启动挑战时运行设置代码。我们在 Linux Luminarium 的许多地方使用此功能，例如随机化学习者必须查找的文件位置（例如，学习 find 命令）、要过滤的数据（练习 grep）等。"
 
 #: src/design/instrumented-learning.md:7
 msgid ""
@@ -321,7 +321,7 @@ msgid ""
 "the resulting contribution) to enable hooking of a learner's `.bashrc`, "
 "allowing our challenges to customize learner shell sessions."
 msgstr ""
-"**Shell 工具化。**我们扩展了 DOJO 平台（并将结果贡献上游）以支持钩取学习者的 `.bashrc`，允许我们的挑战自定义学习者的 shell 会话。"
+"**Shell 工具化。** 我们扩展了 DOJO 平台（并将结果贡献上游）以支持钩取学习者的 `.bashrc`，允许我们的挑战自定义学习者的 shell 会话。"
 
 #: src/design/instrumented-learning.md:11
 msgid ""
@@ -344,7 +344,7 @@ msgid ""
 "override commands, letting us inject guardrails and feedback into the "
 "commands themselves."
 msgstr ""
-"**命令钩取。**我们使用上述 shell 工具化来设置学习者的 PATH 环境变量，允许挑战轻松覆盖命令，让我们能够将防护措施和反馈注入到命令本身中。"
+"**命令钩取。** 我们使用上述 shell 工具化来设置学习者的 PATH 环境变量，允许挑战轻松覆盖命令，让我们能够将防护措施和反馈注入到命令本身中。"
 
 #: src/design/instrumented-learning.md:15
 msgid ""
@@ -363,7 +363,7 @@ msgid ""
 "command hooking, and mistake prediction allows us to preempt many of these "
 "errors."
 msgstr ""
-"**错误预期。**我们观察到学习者在学习 Linux 时会犯大量错误。一个常见的例子是大小写敏感性：不熟悉计算机科学的学习者可能不理解文件和 shell 变量是区分大小写的。我们的 shell 内省、命令钩取和错误预测的结合使我们能够预先阻止许多此类错误。"
+"**错误预期。** 我们观察到学习者在学习 Linux 时会犯大量错误。一个常见的例子是大小写敏感性：不熟悉计算机科学的学习者可能不理解文件和 shell 变量是区分大小写的。我们的 shell 内省、命令钩取和错误预测的结合使我们能够预先阻止许多此类错误。"
 
 #: src/design/instrumented-learning.md:19
 msgid ""
@@ -396,7 +396,7 @@ msgid ""
 "such solutions. For example, we use bash's debug capabilities to hook and "
 "immediately terminate sub shells, as so:"
 msgstr ""
-"**完整性和健壮性。**我们的课程涉及一些与安全相关的概念，一旦用户学习了这些概念，就很难阻止他们找到非预期的解决方案（从而可能错过挑战的教学要点）。我们扩展了 DOJO 以尝试阻止此类解决方案。例如，我们使用 bash 的调试功能来钩取并立即终止子 shell，如下所示："
+"**完整性和健壮性。** 我们的课程涉及一些与安全相关的概念，一旦用户学习了这些概念，就很难阻止他们找到非预期的解决方案（从而可能错过挑战的教学要点）。我们扩展了 DOJO 以尝试阻止此类解决方案。例如，我们使用 bash 的调试功能来钩取并立即终止子 shell，如下所示："
 
 #: src/design/instrumented-learning.md:25
 msgid "`trap '[[ $BASH_SUB SHELL -gt 0 ]] && exit' DEBUG`"
@@ -488,7 +488,7 @@ msgid ""
 "of a Linux security curriculum but sets the stage for more advanced "
 "challenges."
 msgstr ""
-"**破解账户密码。**为了深入理解用户和权限的概念，我们有一系列挑战，学习者必须破解由挑战创建的用户密码。这是 Linux 安全课程中相当标准的部分，但为更高级的挑战奠定了基础。"
+"**破解账户密码。** 为了深入理解用户和权限的概念，我们有一系列挑战，学习者必须破解由挑战创建的用户密码。这是 Linux 安全课程中相当标准的部分，但为更高级的挑战奠定了基础。"
 
 #: src/design/the-curriculum.md:11
 msgid ""
@@ -497,7 +497,7 @@ msgid ""
 "common utilities and gain control of program execution (to retrieve the `/"
 "flag` file)."
 msgstr ""
-"**PATH 劫持。**为了传达 Linux 如何查找要调用的程序，我们教授 PATH 变量，并让用户练习其劫持以覆盖常用实用程序并获得程序执行的控制权（以检索 `/flag` 文件）。"
+"**PATH 劫持。** 为了传达 Linux 如何查找要调用的程序，我们教授 PATH 变量，并让用户练习其劫持以覆盖常用实用程序并获得程序执行的控制权（以检索 `/flag` 文件）。"
 
 #: src/design/the-curriculum.md:13
 msgid ""
@@ -510,7 +510,7 @@ msgid ""
 "symbolic links. We observed, and learners reported, that this improved both "
 "understanding of and passion for the material."
 msgstr ""
-"**.bashrc 劫持。**为了探索不正确文件权限的影响，我们有一系列挑战，学习者可以通过利用不安全的权限来劫持其他用户账户，劫持受害用户的 .bashrc。这通过几个挑战探索了不良文件（`.bashrc`）权限、不安全目录权限的影响（例如，全局可写的家目录）以及不安全处理符号链接的影响。我们观察到，学习者报告说，这提高了对材料的理解和热情。"
+"**.bashrc 劫持。** 为了探索不正确文件权限的影响，我们有一系列挑战，学习者可以通过利用不安全的权限来劫持其他用户账户，劫持受害用户的 .bashrc。这通过几个挑战探索了不良文件（`.bashrc`）权限、不安全目录权限的影响（例如，全局可写的家目录）以及不安全处理符号链接的影响。我们观察到，学习者报告说，这提高了对材料的理解和热情。"
 
 #: src/design/the-curriculum.md:15
 msgid ""
@@ -523,7 +523,7 @@ msgid ""
 "destroy their environment in various ways: `rm -rf /`, a fork bomb, and "
 "filling the disk."
 msgstr ""
-"**Linux 破坏。**错误，尽管我们在 Linux Luminarium 的其余部分努力最小化它们，但往往是最好的老师。大多数 Linux 老手在某个时候都曾删除过他们不想删除的东西，用错误的进程压垮他们的机器等等。观察到这种教学潜力，我们在课程结束时创建了一系列挑战，学习者故意执行这些"错误"以各种方式破坏他们的环境：`rm -rf /`、fork bomb 和填满磁盘。"
+"**Linux 破坏。** 错误，尽管我们在 Linux Luminarium 的其余部分努力最小化它们，但往往是最好的老师。大多数 Linux 老手在某个时候都曾删除过他们不想删除的东西，用错误的进程压垮他们的机器等等。观察到这种教学潜力，我们在课程结束时创建了一系列挑战，学习者故意执行这些"错误"以各种方式破坏他们的环境：`rm -rf /`、fork bomb 和填满磁盘。"
 
 #: src/related-work.md:3
 msgid ""
@@ -733,7 +733,7 @@ msgid ""
 "reported the same hurdle for the Linux Luminarium itself, reflecting the "
 "success of the structured approach we take to Linux education."
 msgstr ""
-"**结构化学习资源具有价值。**在自由形式的回应中，在 Linux Luminarium 之前尝试学习 Linux 的最大障碍最常见的观察（11 个回应）是现有 Linux 学习资源缺乏结构。这些学习者中没有人报告 Linux Luminarium 本身存在同样的障碍，这反映了我们在 Linux 教育中采用的结构化方法的成功。"
+"**结构化学习资源具有价值。** 在自由形式的回应中，在 Linux Luminarium 之前尝试学习 Linux 的最大障碍最常见的观察（11 个回应）是现有 Linux 学习资源缺乏结构。这些学习者中没有人报告 Linux Luminarium 本身存在同样的障碍，这反映了我们在 Linux 教育中采用的结构化方法的成功。"
 
 #: src/impact-and-results/learners-beyond-our-university.md:32
 msgid ""
@@ -746,7 +746,7 @@ msgid ""
 "an uncertainty about how to set up a system for learning and a fear of "
 "accidentally destroying it with an errant command once set up."
 msgstr ""
-"**开箱即用的交互式 Linux 环境能够促进学习。**大约一半的学习者报告说，由于缺乏现成的 Linux 环境，他们在之前尝试学习 Linux 时受到了阻碍，另一半不同意（Q1）。7 名学习者在自由回答题中将此作为他们的最大障碍。在自由形式的回应中，由于缺乏可用的交互式环境而受到阻碍的两个最常见原因是对如何设置学习系统的不确定性，以及担心一旦设置后可能因错误命令而意外破坏它。"
+"**开箱即用的交互式 Linux 环境能够促进学习。** 大约一半的学习者报告说，由于缺乏现成的 Linux 环境，他们在之前尝试学习 Linux 时受到了阻碍，另一半不同意（Q1）。7 名学习者在自由回答题中将此作为他们的最大障碍。在自由形式的回应中，由于缺乏可用的交互式环境而受到阻碍的两个最常见原因是对如何设置学习系统的不确定性，以及担心一旦设置后可能因错误命令而意外破坏它。"
 
 #: src/impact-and-results/learners-beyond-our-university.md:39
 msgid ""
@@ -779,7 +779,7 @@ msgid ""
 "reproducing this finding in even-earlier-stage education settings will be "
 "useful to future educators."
 msgstr ""
-"**游戏化、基于挑战的课程对学习和动机都有益。**学习者对在学习中使用实践挑战（Q3）以及使用夺旗式"旗帜"作为解决这些挑战的额外动机（Q15）都反应非常积极。没有受访者不同意任何一项陈述，并同意 Linux Luminarium 是有趣的（Q16）并激励进一步学习（Q17）。虽然这种动机效应在 CTF 中早已被观察到 \\[[7](../references.md#ref7), [11](../references.md#ref11), [14](../references.md#ref14), [16](../references.md#ref16), [18](../references.md#ref18), [28](../references.md#ref28)\\]，但我们希望，在更早期的教育环境中重现这一发现将对未来的教育工作者有用。"
+"**游戏化、基于挑战的课程对学习和动机都有益。** 学习者对在学习中使用实践挑战（Q3）以及使用夺旗式"旗帜"作为解决这些挑战的额外动机（Q15）都反应非常积极。没有受访者不同意任何一项陈述，并同意 Linux Luminarium 是有趣的（Q16）并激励进一步学习（Q17）。虽然这种动机效应在 CTF 中早已被观察到 \\[[7](../references.md#ref7), [11](../references.md#ref11), [14](../references.md#ref14), [16](../references.md#ref16), [18](../references.md#ref18), [28](../references.md#ref28)\\]，但我们希望，在更早期的教育环境中重现这一发现将对未来的教育工作者有用。"
 
 #: src/impact-and-results/learners-beyond-our-university.md:59
 msgid ""
@@ -797,7 +797,7 @@ msgid ""
 "vague, confusing, rambling, or incomplete problem descriptions as their "
 "biggest hurdle in approaching the Linux Luminarium."
 msgstr ""
-"**指导很好，但不完美。**学习者绝大多数报告说，挑战描述使他们能够应对挑战（Q4），但大多数人仍然需要在这些描述之外搜索额外的（站外）材料（Q7）。此外，在自由形式的回应中，7 名学习者报告说，模糊、令人困惑、冗长或不完整的问题描述是他们接近 Linux Luminarium 的最大障碍。"
+"**指导很好，但不完美。** 学习者绝大多数报告说，挑战描述使他们能够应对挑战（Q4），但大多数人仍然需要在这些描述之外搜索额外的（站外）材料（Q7）。此外，在自由形式的回应中，7 名学习者报告说，模糊、令人困惑、冗长或不完整的问题描述是他们接近 Linux Luminarium 的最大障碍。"
 
 #: src/impact-and-results/learners-beyond-our-university.md:69
 msgid ""
@@ -822,7 +822,7 @@ msgid ""
 "that provides this feature, this points to its usefulness as a first-stage "
 "Linux learning platform."
 msgstr ""
-"**工具化纠正和指导文本帮助学习者学习。**Linux Luminarium 的 shell 会话工具化非常有帮助，Q5（用于学习）和 Q6（用于避免错误）的受访者中没有人不同意，几乎所有人都同意。由于 Linux Luminarium 是唯一提供此功能的平台，这指出了它作为第一阶段 Linux 学习平台的有用性。"
+"**工具化纠正和指导文本帮助学习者学习。** Linux Luminarium 的 shell 会话工具化非常有帮助，Q5（用于学习）和 Q6（用于避免错误）的受访者中没有人不同意，几乎所有人都同意。由于 Linux Luminarium 是唯一提供此功能的平台，这指出了它作为第一阶段 Linux 学习平台的有用性。"
 
 #: src/impact-and-results/learners-beyond-our-university.md:82
 msgid ""
@@ -834,7 +834,7 @@ msgid ""
 "Destructive challenges (e.g., `rm -rf /`), so this makes sense, though we "
 "were pleased to see that the latter remains useful as well."
 msgstr ""
-"**破坏可以是有建设性的。**虽然破坏性（Q12）和安全（Q14）挑战都改善了对 Linux 概念的理解，但安全挑战似乎更有用。通常，安全挑战涉及比破坏性挑战（例如，`rm -rf /`）更多的 Linux 概念组合（例如，数据处理以暴力破解密码和 Linux 用户/组模型），所以这是有道理的，尽管我们很高兴看到后者仍然有用。"
+"**破坏可以是有建设性的。** 虽然破坏性（Q12）和安全（Q14）挑战都改善了对 Linux 概念的理解，但安全挑战似乎更有用。通常，安全挑战涉及比破坏性挑战（例如，`rm -rf /`）更多的 Linux 概念组合（例如，数据处理以暴力破解密码和 Linux 用户/组模型），所以这是有道理的，尽管我们很高兴看到后者仍然有用。"
 
 #: src/impact-and-results/learners-beyond-our-university.md:89
 msgid ""
@@ -849,7 +849,7 @@ msgid ""
 "material) to 1.3 (for the Security Model, which we explicitly cover with the "
 "material)."
 msgstr ""
-"**Linux Luminarium 提高了学习者对 Linux 的舒适度。**我们要求受访者追溯性地自我评估他们在开始之前和完成 Linux Luminarium 之后对 Linux 不同方面的舒适度，评分从 0（非常不舒适）到 4（非常舒适）。结果如图 2 所示。参与者跨越了整个评估范围，每个类别的中位数评估为中等熟悉度（2）。参与者报告的中位数改进在 0.7（对于 GUI，学习者只是偶尔使用它来访问材料）到 1.3（对于安全模型，我们在材料中明确涵盖）之间。"
+"**Linux Luminarium 提高了学习者对 Linux 的舒适度。** 我们要求受访者追溯性地自我评估他们在开始之前和完成 Linux Luminarium 之后对 Linux 不同方面的舒适度，评分从 0（非常不舒适）到 4（非常舒适）。结果如图 2 所示。参与者跨越了整个评估范围，每个类别的中位数评估为中等熟悉度（2）。参与者报告的中位数改进在 0.7（对于 GUI，学习者只是偶尔使用它来访问材料）到 1.3（对于安全模型，我们在材料中明确涵盖）之间。"
 
 #: src/impact-and-results/learners-beyond-our-university.md:99
 msgid ""
@@ -1027,7 +1027,7 @@ msgid ""
 "author(s) and do not necessarily reflect the views of the Defense Advanced "
 "Research Projects Agency (DARPA) or the Office of Naval Research."
 msgstr ""
-"**致谢。**本材料基于国防高级研究计划局（DARPA）在合同号 HR001124C0362 下以及海军部在海军研究办公室颁发的奖项 N00014-23-1-2563 下支持的工作。本材料中表达的任何意见、发现和结论或建议均为作者的观点，不一定反映国防高级研究计划局（DARPA）或海军研究办公室的观点。"
+"**致谢。** 本材料基于国防高级研究计划局（DARPA）在合同号 HR001124C0362 下以及海军部在海军研究办公室颁发的奖项 N00014-23-1-2563 下支持的工作。本材料中表达的任何意见、发现和结论或建议均为作者的观点，不一定反映国防高级研究计划局（DARPA）或海军研究办公室的观点。"
 
 #: src/references.md:3
 msgid ""

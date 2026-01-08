@@ -1,16 +1,16 @@
 # Instrumented Learning
 
-The DOJO platform gives assignment authors significant control over the learner’s web-accessible working environment. We used this flexibility to implement a number of novel instrumentation hooks that serve as our guardrails to improve student learning.
+The DOJO platform gives assignment authors significant control over the learner's web-accessible working environment. We used this flexibility to implement a number of novel instrumentation hooks that serve as our guardrails to improve student learning.
 
 **Challenge randomization.** DOJO exposes an interface for running setup code when a learner launches a challenge. We use this in a large number of places in the Linux Luminarium, such as randomizing the location of files that learners must find (e.g., to learn the find command), data to filter (to practice grep), and so on.
 
 We use two different forms of randomization: per-attempt (using a pseudorandom number generator) and per-learner (achieved by hashing the /flag file, which is stable per learner-challenge tuple), depending on the specific challenge. The latter allows us to differentiate challenges between learners to minimize the spread of written solutions (which reduce active learning to passive learning), while the former increases challenge variety in general.
 
-**Shell instrumentation.** We expanded the DOJO platform (and up streamed the resulting contribution) to enable hooking of a learner’s `.bashrc`, allowing our challenges to customize learner shell sessions.
+**Shell instrumentation.** We expanded the DOJO platform (and up streamed the resulting contribution) to enable hooking of a learner's `.bashrc`, allowing our challenges to customize learner shell sessions.
 
-We use this, combined with bash’s rich debug capabilities, to enable significant observability for the challenge of the learner’s attempts to solve it. For example, when teaching paths and the cd command, we can directly detect (by tracking the PWD environment variable) when a learner enters the correct directory. Furthermore, by hooking each line entered into the shell, we can ensure that learners properly use absolute paths (in challenges that aim to teach them) versus relative paths (when the curriculum moves on to that) or properly use file globbing, tab completion, and so on as these concepts are taught.
+We use this, combined with bash's rich debug capabilities, to enable significant observability for the challenge of the learner's attempts to solve it. For example, when teaching paths and the cd command, we can directly detect (by tracking the PWD environment variable) when a learner enters the correct directory. Furthermore, by hooking each line entered into the shell, we can ensure that learners properly use absolute paths (in challenges that aim to teach them) versus relative paths (when the curriculum moves on to that) or properly use file globbing, tab completion, and so on as these concepts are taught.
 
-**Command hooking.** We use the aforementioned shell instrumentation to set the learner’s PATH environment variable to allow challenges to easily override commands, letting us inject guardrails and feedback into the commands themselves.
+**Command hooking.** We use the aforementioned shell instrumentation to set the learner's PATH environment variable to allow challenges to easily override commands, letting us inject guardrails and feedback into the commands themselves.
 
 For example, when we teach advanced usage of the tee command, our tee wrapper actually inspects the arguments to determine whether the learner is on the right path.
 
@@ -20,6 +20,6 @@ For example, a challenge that asks the learner to use cat to read the `/flag` fi
 
 Naturally, predicting all such errors is impossible. To remedy this, we monitor interactions with our environment and voiced student frustrations on our online Discord community. As we notice common mistakes made by learners, we augment the error anticipation logic to catch these mistakes as well.
 
-**Integrity and robustness.** Our curriculum involves some security relevant concepts and, once users learn these concepts, it becomes difficult to prevent them from finding unintended solutions (and thus potentially missing the pedagogical point of the challenge). We expanded DOJO to try to head off such solutions. For example, we use bash’s debug capabilities to hook and immediately terminate sub shells, as so:
+**Integrity and robustness.** Our curriculum involves some security relevant concepts and, once users learn these concepts, it becomes difficult to prevent them from finding unintended solutions (and thus potentially missing the pedagogical point of the challenge). We expanded DOJO to try to head off such solutions. For example, we use bash's debug capabilities to hook and immediately terminate sub shells, as so:
 
 `trap '[[ $BASH_SUB SHELL -gt 0 ]] && exit' DEBUG`
